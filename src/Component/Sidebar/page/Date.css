@@ -1,0 +1,20 @@
+ .datetype{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .datetype .datetitle{
+    font-size: 1.1rem;
+    padding: 2px;
+    color: rgb(0, 146, 202);
+    text-align: left;
+
+}
+.datetype .datedate{
+    font-size: 1rem;
+    padding-left: 3px;
+    color: rgb(156, 28, 27);
+    text-align: left;
+
+
+}

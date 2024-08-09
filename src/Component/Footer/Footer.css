@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    height: 19vh;
+    border-bottom: black solid 1.5px;
+    border-top: black solid 1.5px;
+    background-color: #C30;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute;
+    bottom: 0; */
+    z-index: 1;
+
+}
+.footer .footer-content{
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+}
+.footer .footer-bottom{
+    margin-right: 3rem;
+    margin-top: 5.7rem;
+}

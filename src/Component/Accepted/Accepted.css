@@ -1,0 +1,9 @@
+.accepted{
+    min-height: 100vh;
+    display: flex
+    ;
+}
+.accepted .rightside{
+    width: 80vw;
+    border: 1px solid black;
+}

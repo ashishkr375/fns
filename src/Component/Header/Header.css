@@ -16,6 +16,11 @@
     width: 100%;
     
 }
+.container .header .menu{
+    display: none;
+   font-size: 2rem;
+   margin-right: 2rem;
+}
 .container .header .logo{
     width: 6rem;
     height: 6rem;
@@ -89,52 +94,69 @@
 
 }
 
+@media screen and (max-width: 1025px){
+    .container .header .logo{
+        width: 6rem;
+        height: 6rem;
+        margin-left: 1rem;
+       }
+       .container{
+        height: 12vh;
+       }
+       
+       .container .navbar ul li .link{
+        padding-left: 20px;
+        padding-right: 20px;}
+}
+
 @media screen and (max-width: 768px){
-   .container .header .logo{
-    width: 5rem;
-    height: 5rem;
-    margin-left: 1rem;
-   }
-   .container{
-    height: 12vh;
-   }
-   .container .navbar{
-    display: none;
-   }
-    /* .container .navbar{
-        height: 100vh;
-        width: 40%;
-        position: fixed;
-        top: -55px;
-        left: 0%;
-
-
+    .container .header .logo{
+     width: 3rem;
+     height: 3rem;
+     margin-left: 1rem;
     }
-
-    .container .header .heading{
-     margin-right: 1rem;
+    .container{
+     height: 10vh;
+     border-bottom: #C30 solid 2px;
     }
-    .container .header .heading h2{
-        font-size: 1.2rem;
+    .container .header .menu{
+     display: block;
     }
-    .container .header .heading span{
-        font-size: 1.3rem;
+     .container .header .heading{
+      margin-right: 1rem;
+ 
+ 
+     }
+     .container .header .heading h2{
+         font-size: 1rem;
+     }
+     .container .header .heading span{
+         font-size: 1.1rem;
+     }
+    .container .navbar{
+     height: 60vh;
+     position: absolute;
+     left:0;
+     top:5.5rem;
+     transition: all 0.8s;
+     z-index: 100;
     }
     .container .navbar ul {
+        height: 100%;
         flex-direction: column;
-        height: 100vh;
 
-        
     }
     .container .navbar ul li {
-        padding: 30px;
-        border-right: none;
         border-bottom: #CCC solid 1px;
+        width: 100%;
+        text-align: center;
+
     }
     .container .navbar ul li .link{
         width: 100%;
         border-right: none;
-    } */
-
-    
-}
+        padding: 15px;
+    }
+ 
+     
+ }

@@ -3,9 +3,17 @@ import logo from './logo.jpg';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+
 
 
 function Header() {
+  const [show, setShow] = useState(false);
+  console.log(show);
+  function handleshow(){
+  }
+  handleshow();
+  const style = show ? {display: 'block'} : {left: '-100%'};
   return (
     <>
       <div className="container">
@@ -22,8 +30,11 @@ function Header() {
               <span>(Hybrid Mode)</span>
             
           </div>
+          <div className="menu" onClick={()=>setShow(!show)}>
+            <GiHamburgerMenu />
+            </div>
         </div>
-        <div className="navbar">
+        <div className="navbar" style={style}>
           <ul>
             <li>
               <Link to="/" className="link">Home</Link>
