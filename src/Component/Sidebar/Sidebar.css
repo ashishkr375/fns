@@ -1,5 +1,5 @@
 .sidebar {
-  border: 1px solid black;
+  border: 1px solid #848484;
   max-height: 45vh;
   overflow-y: auto;
 }
