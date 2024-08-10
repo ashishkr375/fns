@@ -1,48 +1,42 @@
-.sidebar{
-    width: 20vw;
-    height: 100%;
-   border: 1px solid black;
+.sidebar {
+  border: 1px solid black;
+  max-height: 45vh;
+  overflow-y: auto;
 }
-.sidebar .sponsor{
-    width: 100%;
-    min-height: 15vh;
-    margin-top: 2rem;
-
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    max-height: 30vh;
+    overflow-y: auto;
+  }
 }
-.sidebar  .title {
-    width: 100%;
-    background-color: #00405d;
-    color: white;
-
+.sidebar .sponsor {
+  width: 100%;
+  min-height: 15vh;
 }
-.sidebar .title h2{
-    padding: 3px;
-    margin: 0;
-    padding-left: 7px;
-    font-size: 1.1rem;
+.sidebar .title {
+  width: 100%;
+  background-color: #00405d;
+  color: white;
 }
-.sidebar .important .dates{
-    margin: 15px;
-    min-height: 20vh;
+.sidebar .title h2 {
+  padding: 3px;
+  margin: 0;
+  padding-left: 7px;
+  font-size: 1.1rem;
 }
-.sidebar .important .dates .datetype .datetitle{
-    font-size: 1.1rem;
-    padding: 2px;
-    color: rgb(0, 146, 202);
-    text-align: left;
-
+.sidebar .important .dates {
+  margin: 15px;
+  min-height: 20vh;
 }
-.sidebar .important .dates .datetype .datedate{
-    font-size: 1rem;
-    padding-left: 3px;
-    color: rgb(156, 28, 27);
-    text-align: left;
-
-
+.sidebar .important .dates .datetype .datetitle {
+  font-size: 1.1rem;
+  padding: 2px;
+  color: rgb(0, 146, 202);
+  text-align: left;
 }
-@media screen and (max-width: 450px){
-    .sidebar{
-        width: 35vw;
-    }
-    
+.sidebar .important .dates .datetype .datedate {
+  font-size: 1rem;
+  padding-left: 3px;
+  color: rgb(156, 28, 27);
+  text-align: left;
 }
