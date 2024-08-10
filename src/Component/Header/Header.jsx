@@ -23,10 +23,9 @@ function Header() {
           </div>
           <div className="heading">
             <h2>
-              Third International Conference on Security, Privacy and Data
-              Analytics 
+            Frontiers in Nanomaterials Sciences: 
             </h2>
-            <h2>  (ISPDA-2024), December 13-15, 2024</h2>
+            <h2>  Aspects in Biotechnology and Chemical Engineering</h2>
               <span>(Hybrid Mode)</span>
             
           </div>

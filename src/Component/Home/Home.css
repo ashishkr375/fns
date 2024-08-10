@@ -9,10 +9,74 @@
   height: 45vh;
   object-fit: cover;
 }
+.speakerheading{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: brown;
+}
+.speakers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 3rem;
+  margin: 2rem ;
+  min-height: 30vh;
+  margin-bottom: 4rem;
+}
+.hometext1{
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 3rem ;
+}
+.morspeaker{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:rgb(178, 30, 30);
+
+}
+.nospeaker{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:rgb(178, 30, 30);
+
+
+}
+.conthemes{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.conthemetitle{
+  font-size: 1.6rem;
+  font-weight: 600;
+ 
+  color: brown;
+}
+.contheme{
+  margin: 0 3rem;
+}
+.contheme li{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: .4rem 0;
+}
+@media only screen and (max-width: 1025px) {
+  .speakers{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .speakers{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
 @media only screen and (max-width: 600px) {
   .nitp-img img {
     width: 100%;
     height: 30vh;
     object-fit: cover;
+  }
+  .speakers{
+    grid-template-columns: 1fr ;
+    place-items: center;
   }
 }

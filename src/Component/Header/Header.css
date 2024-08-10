@@ -33,7 +33,7 @@
     object-fit: cover;
 }
 .container .header .heading{
-    margin-right: 6rem;
+    margin-right: 8rem;
     width: 80%;
     display: flex;
     justify-content:flex-start;
@@ -131,7 +131,7 @@
          font-size: 0.75rem;
      }
      .container .header .heading span{
-         font-size: 1.1rem;
+         font-size: 0.75rem;
      }
     .container .navbar{
      height: 60vh;
