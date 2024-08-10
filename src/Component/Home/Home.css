@@ -1,0 +1,28 @@
+.accepted{
+    min-height: 100vh;
+    display: flex
+    ;
+}
+.accepted .rightside{
+    width: 80vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.accepted .rightside .notice-img{
+    width: 100%;
+    display: flex;
+}
+.accepted .rightside .notice-img .nitp-img{
+    padding: 3rem;
+    width: 55%;
+   padding-top: 2rem;
+}
+.accepted .rightside .notice-img .nitp-img img{ 
+    width: 100%;
+    object-fit: cover;
+}
+.accepted .rightside .notice-img .nitp-notice{
+    width: 45%;
+    padding: 2rem;
+}
