@@ -6,11 +6,11 @@ function Sidebar() {
   return (
     <>
       <div className="sidebar h-[45vh] pb-5">
-        <div className="sponsor">
+        {/* <div className="sponsor">
           <div className="title">
             <h2 className="sidetitle">Sponsors</h2>
           </div>
-        </div>
+        </div> */}
         <div className="important ">
           <div className="title ">
             <h2 className="sidetitle">Important Dates</h2>

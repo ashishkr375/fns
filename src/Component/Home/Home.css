@@ -46,7 +46,7 @@
   margin-bottom: 3rem;
 }
 .conthemetitle{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
  
   color: brown;
@@ -78,5 +78,18 @@
   .speakers{
     grid-template-columns: 1fr ;
     place-items: center;
+  }
+  .contheme li{
+   text-align: left;
+   font-size: .9rem;
+  }
+  .hometext1{
+   
+    margin: .7rem ;
+  }
+  .conthemetitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+   
   }
 }
