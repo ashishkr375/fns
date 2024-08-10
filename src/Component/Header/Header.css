@@ -94,11 +94,11 @@
 
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 768px){
     .container .header .logo{
         width: 6rem;
         height: 6rem;
-        margin-left: 1rem;
+        margin-left: 0.75rem;
        }
        .container{
         height: 12vh;
@@ -107,13 +107,14 @@
        .container .navbar ul li .link{
         padding-left: 20px;
         padding-right: 20px;}
+
 }
 
 @media screen and (max-width: 768px){
     .container .header .logo{
-     width: 3rem;
+     width: 3.5rem;
      height: 3rem;
-     margin-left: 1rem;
+     margin-left: 0.75rem;
     }
     .container{
      height: 10vh;
@@ -128,10 +129,10 @@
  
      }
      .container .header .heading h2{
-         font-size: 0.75rem;
+         font-size: 0.5rem;
      }
      .container .header .heading span{
-         font-size: 1.1rem;
+         font-size: 0.5rem;
      }
     .container .navbar{
      height: 60vh;
@@ -157,6 +158,9 @@
         border-right: none;
         padding: 15px;
     }
- 
+ .container .header .menu {
+
+    margin-right: 0.5rem;
+}
      
  }

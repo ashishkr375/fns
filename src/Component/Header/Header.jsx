@@ -19,7 +19,13 @@ function Header() {
       <div className="container">
         <div className="header">
           <div className="logo">
-            <img src={logo} alt="logo" />
+          <a 
+                                    href="https://www.nitp.ac.in" 
+                                    className='notice-title' 
+                                    target='_blank' 
+                                    rel='noopener noreferrer'
+                                ><img src={logo} alt="logo" /></a>
+            
           </div>
           <div className="heading">
             <h2>
