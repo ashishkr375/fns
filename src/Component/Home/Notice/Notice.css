@@ -9,13 +9,7 @@
   /* border-radius: 1rem; */
  
 }
-@media only screen and (max-width: 600px) {
-  .notice {
-    min-height: 30vh;
-    max-height: 30vh;
-    overflow-y: auto;
-  }
-}
+
 .notice h1 {
 
   font-weight: 800;
@@ -45,4 +39,14 @@
   font-weight: bold;
   color: rgb(155, 20, 17);
   text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .notice {
+    min-height: 30vh;
+    max-height: 30vh;
+    overflow-y: auto;
+  }
+  .harshit .notice-title {
+    font-size: .9rem;
+  }
 }

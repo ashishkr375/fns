@@ -153,8 +153,8 @@ function Notice() {
                         {notice.length === 0 ? (
                             <p>No notices available.</p>
                         ) : (
-                            notice.map((item) => (
-                                <div className='harshit' key={item.Link}>
+                            notice.map((item,index) => (
+                                <div className='harshit' key={index}>
                                     <img src={svg} alt="download" className='download-svg' /> 
                                     <a 
                                     href={item.Link.startsWith('http') ? item.Link : `http://${item.Link}`} 

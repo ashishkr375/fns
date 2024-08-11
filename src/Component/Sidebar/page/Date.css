@@ -18,3 +18,22 @@
 
 
 }
+@media  screen and (max-width: 768px){
+    .datetype{
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .datetype .datetitle{
+        font-size: .9rem !important;
+        padding: 2px;
+        color: rgb(0, 146, 202);
+        text-align: left;
+    }
+    .datetype .datedate{
+        font-size: 0.8rem !important;
+        padding-left: 3px;
+        color: rgb(156, 28, 27);
+        text-align: left;
+    }
+    
+}

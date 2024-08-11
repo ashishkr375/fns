@@ -1,0 +1,26 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    min-height: 30vh;
+    border: 2px solid rgb(137, 133, 133);
+    margin: 3rem auto;
+    border-radius: 1rem;
+    width: 40%;
+}
+.brown{
+    color: rgb(146, 64, 64);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+.blue{
+    color: rgb(31, 31, 96);
+    
+}
+@media screen and (max-width: 768px){
+    .contact{
+        width: 90%;
+    }
+    
+}

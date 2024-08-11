@@ -16,7 +16,8 @@ function Camera() {
       </div>
   
       <div className="mx-5 md:mx-20">
-      <h1 className="text-center m-20 font-extrabold text-2xl md:text-9xl">Accepted Content Here</h1>
+      <h1 className="text-center m-10 font-bold text-xl md:text-4xl">Camera-ready Paper</h1>
+        <p className="morspeaker text-center m-10 font-bold text-xl md:text-4xl"> coming soon ....</p>
     </div>
     </>
   )
