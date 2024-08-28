@@ -16,14 +16,11 @@ function Sidebar() {
             <h2 className="sidetitle">Important Dates</h2>
           </div>
           <div className="dates px-5" >
-          <Date  datetitle={"Notification for Acceptance:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-          <Date  datetitle={"Camera-Ready Submission & Registration deadline:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Notification for Acceptance:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Notification for Acceptance:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Camera-Ready Submission & Registration deadline:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Notification for Acceptance:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Camera-Ready Submission & Registration deadline:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Camera-Ready Submission & Registration deadline:"} datedate={"31st August, 2024 (11:59 PM IST)"} />
+          <Date  datetitle={"Abstract submission:"} datedate={" 1-30 Sept, 2024(11:59 PM IST)"} />
+          <Date  datetitle={"Abstract acceptance: "} datedate={"5 Oct, 2024(11:59 PM IST)"} />
+            <Date  datetitle={"Early registration"} datedate={" 6-21 Oct, 2024 (11:59 PM IST)"} />
+            <Date  datetitle={"Late registration:"} datedate={"after 21 Oct, 2024(11:59 PM IST)"} />
+            <Date  datetitle={"Conference dates:"} datedate={"21-23 Dec, 2024(11:59 PM IST)"} />
           </div>
         </div>
       </div>

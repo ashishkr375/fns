@@ -135,7 +135,7 @@
          font-size: 0.75rem;
      }
     .container .navbar{
-     height: 60vh;
+     height: 75vh;
      position: absolute;
      left:0;
      top:5.5rem;
@@ -166,7 +166,7 @@
  }
  @media screen and (max-width: 380px){
     .container .navbar{
-        height: 85vh;
+        height: 95vh;
         position: absolute;
         left:0;
         top:4rem;

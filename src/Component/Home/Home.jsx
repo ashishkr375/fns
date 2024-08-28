@@ -28,18 +28,38 @@ function Home() {
       </div>
       <div className="mx-5 md:mx-20">
         {/* <h1 className="text-center m-20 font-extrabold text-2xl md:text-9xl">Home Content Here</h1> */}
-        <p className=" hometext1">
-          The development of nanomaterials has evolved enormously from
-          determining their physiochemical properties to isolating their desired
-          properties for which they are utilized in different sectors of
-          biotechnology and chemical engineering etc. Combining sustainability
-          with the development of novel nanomaterials will circumvent the
-          harmful effects on both human health and the environment. Frontiers in
-          Nanomaterial Sciences (FINS) is an international conference in a
-          hybrid mode that provides an interdisciplinary forum for researchers,
-          students, scientists, practitioners, and industrialists across the
-          globe to meet up and present their ideas, concepts, and modern
-          progressive trends in nanomaterials-based research.
+        <h1 className="conthemetitle my-5 ">About NIT Patna</h1>
+        <p className=" hometext1 my-2">
+  
+National Institute of Technology Patna is the 18th
+NIT, created by the Ministry of Education,
+Government of India after rechristening the
+erstwhile Bihar College of Engineering Patna on 28th
+January 2004. The institute is situated on the south
+bank of the holy river Ganges behind Gandhi Ghat,
+one of the most important and reverential places of
+Patna. The Gandhi Ghat is associated with the
+immersion of ashes of the Father of the Nation
+Mahatma Gandhi. The campus has a picturesque
+river view with historic building, presenting a
+spectacle of architectural delight and natural beauty.
+
+        </p>
+        <h1 className="conthemetitle my-5 "> About FINS,2K24</h1>
+        <p className=" hometext1 my-2">
+        The development of nanomaterials has evolved
+enormously from determining their physiochemical
+properties to isolating their desired properties for
+which they are utilized in different areas of
+biomedical and chemical engineering etc. Frontiers
+in Nanomaterial Sciences (FINS) is the first
+international conference that will be conducted in
+hybrid mode in NIT Patna to provide an broad
+interdisciplinary forum for researchers, students,
+scientists practitioners, and industrialists across the
+globe to interact and present their ideas, and
+concepts on progressive trends in nanomaterials
+based research.
         </p>
         <h1 className="speakerheading">Keynote Speaker :</h1>
         <div className="speakers">

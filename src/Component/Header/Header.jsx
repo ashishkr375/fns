@@ -72,6 +72,11 @@ function Header() {
               </Link>
             </li>
             <li>
+              <Link to="/sponsor" className="link" onClick={handleLinkClick}>
+              Sponsorship
+              </Link>
+            </li>
+            <li>
               <Link to="/registration" className="link" onClick={handleLinkClick}>
                 Registration
               </Link>
