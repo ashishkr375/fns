@@ -14,6 +14,7 @@ import Camera from './Component/Camera/Camera'
 import Registration from './Component/Registration/Registration'
 import Progamme from './Component/Progamme/Progamme'
 import Accepted from './Component/Accepted/Accepted'
+import Sponsor from './Component/Sponsor/Sponsor'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path='/acceptedpaper' element={<Accepted />} />
           <Route path='/registration' element={<Registration />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/sponsor' element={<Sponsor />} />
 
         </Routes>
         <Footer/>

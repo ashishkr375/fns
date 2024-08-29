@@ -20,7 +20,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   gap: 3rem;
   margin: 2rem ;
-  min-height: 30vh;
+  min-height: 10vh;
   margin-bottom: 4rem;
 }
 .hometext1{

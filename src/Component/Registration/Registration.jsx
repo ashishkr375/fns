@@ -55,6 +55,11 @@ function Registration() {
       <h2 className='text-2xl text-red-700'>Bank Details</h2>
       <p className='text-center'>Will be Updated soon !</p>
     </div>
+    <div className="registration-table">
+    <h2 className='text-2xl text-red-700'>Accomodation </h2>
+    <p className='text-center'>Accodmodation for deligates will be made in Guesthouse on payment basis. Accomodation forstudents will be made on NITP Hostel on paymentbasis
+   <br/> *Participants needs to send priror request*</p>
+   </div>
     </div>
     </>
   )

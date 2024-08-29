@@ -1,0 +1,43 @@
+
+.registration-table {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .registration-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-table table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .registration-table th, .registration-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .registration-table th {
+    background-color: #f4f4f4;
+  }
+  .registration-table td {
+    background-color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    td{
+        font-size:0.75rem;
+    }
+    .registration-table {
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+  }

@@ -32,7 +32,7 @@ function Footer() {
           Frontiers in nanomaterials sciences: <br></br>"Aspects in biotechnology and chemical engineering "
           </h3>
         <h3>Jointly organized by Dept of Chemistry,<br></br> NIT Patna & Dept. of Chemical Engineering & Technology.</h3>
-          Email: <a href="mailto:ispda2024@nitp.ac.in">ispda2024@nitp.ac.in</a><br />
+          Email: <a href="mailto:icfns2024.conf@nitp.ac.in">icfns2024.conf@nitp.ac.in          </a><br />
         </div>
       </div>
       
