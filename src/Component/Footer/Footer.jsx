@@ -31,7 +31,7 @@ function Footer() {
           <h3 className='font-bold'>
           Frontiers in nanomaterials sciences: <br></br>"Aspects in biotechnology and chemical engineering "
           </h3>
-        <h3>Jointly organized by Dept of Chemistry,<br></br> NIT Patna & Dept. of Chemical Engineering & Technology.</h3>
+        <h3>Jointly organized by Department of chemistry and <br/> Department of Chemical Engg. & Tech., NIT PATNA</h3>
           Email: <a href="mailto:icfns2024.conf@nitp.ac.in">icfns2024.conf@nitp.ac.in          </a><br />
         </div>
       </div>
