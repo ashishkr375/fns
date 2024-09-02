@@ -70,7 +70,7 @@ based research.
                 img={speaker.img}
                 name={speaker.name}
                 institute={speaker.institute}
-                position={speaker.position}
+                pre={speaker.pre}
                 place={speaker.place}
               />
             ))
