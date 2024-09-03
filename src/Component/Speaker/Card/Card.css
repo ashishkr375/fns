@@ -1,14 +1,16 @@
 .card{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    width: 250px;
+    width: 230px;
     margin-buttom: 1rem;
 
 }
 .card img{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
 }
 .card-content{
     min-height: 17vh;

@@ -28,6 +28,12 @@
   font-weight: 400;
   margin: 3rem;
 }
+.hometext2{
+  margin:1rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .morspeaker {
   font-size: 1.3rem;
   font-weight: 600;
@@ -103,9 +109,9 @@
 }
 
 .map-container iframe {
-  width: 100%;
+  width: 600px;
   height: 100%;
-  /* max-width: 600px;  */
+  
 }
 
 @media (max-width: 768px) {
