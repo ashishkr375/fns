@@ -41,7 +41,22 @@ research.
         </p>
         <h1 className="speakerheading">Venue :</h1>
         <p className=" hometext1 my-2">Meghnad Saha &Visveswaraya, Hall NIT Patna , Bihar, India</p>
-
+        <div className="venue-container">
+                <div className="image-container">
+                    <img src="https://www.nitp.ac.in/static/4017376d992d9de6b8785b862bacd757/d8255/asd_1920x1080.jpg" alt="Venue" />
+                </div>
+                <div className="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.543906263619!2d85.17047352485123!3d25.620067764444084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58dce6732867%3A0x4059f39a1ac82f06!2sNational%20Institute%20of%20Technology%2C%20Patna!5e0!3m2!1sen!2sin!4v1725332433877!5m2!1sen!2sin" 
+                        width="600" 
+                        height="450" 
+                        style={{border: 0}} 
+                        allowFullScreen="" 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
         <h1 className="speakerheading">Keynote Speaker :</h1>
         <div className="speakers">
           {SpeakerData.length > 0 ? (
