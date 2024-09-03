@@ -26,9 +26,20 @@ function Header() {
             </a>
           </div>
           <div className="heading">
-            <h2>Frontiers in Nanomaterials Sciences:</h2>
+            {/* <h2>Frontiers in Nanomaterials Sciences:</h2>
             <h2> Aspects in Biotechnology and Chemical Engineering</h2>
-            <span>(Hybrid Mode)</span>
+            <span>(Hybrid Mode)</span> */}
+            <h2>
+            INTERNATIONAL CONFERENCE
+ ON
+<br/>
+ FRONTIERS IN NANOMATERIALS SCIENCES:
+<br/>
+ ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
+<br/>
+ <span> (FINS 2K24)</span>, Bihar India,
+ 21-23 December 2024
+            </h2>
           </div>
           <div className="menu" onClick={() => setShow(!show)}>
             <GiHamburgerMenu />
