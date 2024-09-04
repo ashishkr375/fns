@@ -161,7 +161,7 @@ color: black;
      height: 75vh;
      position: absolute;
      left:0;
-     top:5.5rem;
+     top:8.5rem;
      transition: all 0.8s;
      z-index: 100;
     }
@@ -207,7 +207,7 @@ color: black;
         height: 95vh;
         position: absolute;
         left:0;
-        top:4rem;
+        top:6.1rem;
         transition: all 0.8s;
         z-index: 100;
        }
