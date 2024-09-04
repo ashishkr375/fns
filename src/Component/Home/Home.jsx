@@ -80,7 +80,7 @@ research.
        
         <div className="conthemes">
           <h1 className="conthemetitle">Conference Themes:</h1>
-          <div className="flex">
+          <div className="fle">
           <ul className=" list-disc  contheme" >
             <li>Nanomaterials and technology</li>
             <li>Nanobiotechnology</li>

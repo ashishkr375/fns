@@ -140,7 +140,7 @@ color: black;
      margin-left: 0.75rem;
     }
     .container{
-     height: 10vh;
+     height: 15vh;
      border-bottom: #C30 solid 2px;
     }
     .container .header .menu{
@@ -185,7 +185,6 @@ color: black;
         width:20%;
     }
     .butt{
-    margin-right: 5rem;
     cursor: pointer;
     border: none;
     background-color: #FFD700  ;
