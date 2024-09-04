@@ -4,3 +4,14 @@
     color:rgb(178, 30, 30);
   
   }
+  .acc{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+.acc img{
+  width: 50%;
+}

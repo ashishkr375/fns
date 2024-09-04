@@ -1,0 +1,49 @@
+
+  .speakerheading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: brown;
+  }
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 2rem;
+    min-height: 10vh;
+    margin-bottom: 4rem;
+  }
+
+  
+  .morspeaker {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(178, 30, 30);
+  }
+  .nospeaker {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(178, 30, 30);
+  }
+ 
+  @media only screen and (max-width: 1025px) {
+    .speakers {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .speakers {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+   
+    .speakers {
+      grid-template-columns: 1fr;
+      place-items: center;
+  
+  }}
+ 
+  
+  
+  

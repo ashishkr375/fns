@@ -4,8 +4,13 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+  const handlego = () => {
+    navigate("/registration");
+  }
   const [show, setShow] = useState(false);
   const style = show ? { display: "block" } : { left: "-100%" };
   const handleLinkClick = () => {
@@ -30,23 +35,34 @@ function Header() {
             <h2> Aspects in Biotechnology and Chemical Engineering</h2>
             <span>(Hybrid Mode)</span> */}
             <h2>
-            INTERNATIONAL CONFERENCE
- ON
-<br/>
- FRONTIERS IN NANOMATERIALS SCIENCES:
-<br/>
- ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
-<br/>
- <span> (FINS 2K24)</span>, Bihar India,
- 21-23 December 2024
+              <p> INTERNATIONAL CONFERENCE</p>
+              <p>ON</p>
+              <p className="text-cyan-500 font-bold">
+                FRONTIERS IN NANOMATERIALS SCIENCES:
+              </p>
+              <p className="text-purple-500 font-bold">
+                {" "}
+                ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
+              </p>
+              <p className="font-bold"> (FINS 2K24), NIT Patna Bihar India,</p>
+              <p className="font-bold">21-23 December 2024</p>
+              <p
+                className="text-purple-500
+italic"
+              >
+                (Hybrid Mode)
+              </p>
             </h2>
+          </div>
+          <div className="buttonn">
+            <button className="butt" onClick={()=>handlego()}>Register Now</button>
           </div>
           <div className="menu" onClick={() => setShow(!show)}>
             <GiHamburgerMenu />
           </div>
         </div>
         <div className="navbar" style={style}>
-        <ul>
+          <ul>
             <li>
               <Link to="/" className="link" onClick={handleLinkClick}>
                 Home
@@ -63,36 +79,63 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/callfor" className="link" onClick={handleLinkClick}>
-                Call For Paper
+              <Link to="/speaker" className="link" onClick={handleLinkClick}>
+                Speakers
               </Link>
             </li>
             <li>
-              <Link to="/cameraready" className="link" onClick={handleLinkClick}>
-                Camera-ready Paper
+              <Link
+                to="/abstract"
+                className="link"
+                onClick={handleLinkClick}
+              >
+                Abstracts
               </Link>
             </li>
             <li>
-              <Link to="/programme" className="link" onClick={handleLinkClick}>
-                Programme
+              <Link to="/newupdate" className="link" onClick={handleLinkClick}>
+                New Update
               </Link>
             </li>
             <li>
-              <Link to="/acceptedpaper" className="link" onClick={handleLinkClick}>
-                Accepted Paper
+              <Link
+                to="/schedule"
+                className="link"
+                onClick={handleLinkClick}
+              >
+                Schedule
               </Link>
             </li>
             <li>
+              <Link
+                to="/publication"
+                className="link"
+                onClick={handleLinkClick}
+              >
+                Publication
+              </Link>
+              </li>
+            {/* <li>
               <Link to="/sponsor" className="link" onClick={handleLinkClick}>
-              Sponsorship
+                Sponsorship
               </Link>
-            </li>
-            <li>
-              <Link to="/registration" className="link" onClick={handleLinkClick}>
+            </li> */}
+            {/* <li>
+              <Link
+                to="/registration"
+                className="link"
+                onClick={handleLinkClick}
+              >
                 Registration
               </Link>
+            </li> */}
+            <li>
+              <Link to="/travel" className="link" onClick={handleLinkClick}>
+                Travel and Accommodation
+              </Link>
             </li>
             <li>
+
               <Link to="/contact" className="link" onClick={handleLinkClick}>
                 Contact Us
               </Link>

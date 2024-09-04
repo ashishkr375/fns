@@ -1,0 +1,35 @@
+.morspeaker{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:rgb(178, 30, 30);
+  
+  }
+  .cont{
+    display: flex;
+    padding: 1rem;
+
+  }
+  .img-cont{
+    width:50%;
+    }
+  .img-cont img{
+    height: 100%;
+    object-fit: cover;
+  }
+ .abstract{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+ }
+ .hehe{
+  font-size: 1.3rem;
+  padding: 2rem;
+  padding-top: .9rem;
+  
+ }
+ .micro{
+  display: flex;
+  align-items: center;
+ }
