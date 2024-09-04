@@ -93,25 +93,34 @@ italic"
               </Link>
             </li>
             <li>
-              <Link to="/programme" className="link" onClick={handleLinkClick}>
-                Programme
+              <Link to="/newupdate" className="link" onClick={handleLinkClick}>
+                New Update
               </Link>
             </li>
             <li>
               <Link
-                to="/acceptedpaper"
+                to="/schedule"
                 className="link"
                 onClick={handleLinkClick}
               >
-                Accepted Paper
+                Schedule
               </Link>
             </li>
             <li>
+              <Link
+                to="/publication"
+                className="link"
+                onClick={handleLinkClick}
+              >
+                Publication
+              </Link>
+              </li>
+            {/* <li>
               <Link to="/sponsor" className="link" onClick={handleLinkClick}>
                 Sponsorship
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 to="/registration"
                 className="link"
@@ -119,8 +128,14 @@ italic"
               >
                 Registration
               </Link>
+            </li> */}
+            <li>
+              <Link to="/travel" className="link" onClick={handleLinkClick}>
+                Travel and Accommodation
+              </Link>
             </li>
             <li>
+
               <Link to="/contact" className="link" onClick={handleLinkClick}>
                 Contact Us
               </Link>

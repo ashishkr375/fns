@@ -56,7 +56,7 @@ function Committes() {
   ];
   return (
     <>
-   <div className="accepted grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 mx-3 md:mx-24">
+   {/* <div className="accepted grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 mx-3 md:mx-24">
         
         <Sidebar />
    
@@ -64,7 +64,7 @@ function Committes() {
             <Notice />
           </div>
         
-      </div>
+      </div> */}
   
       <div className="mx-5 md:mx-20">
       <div className="committees-layout">

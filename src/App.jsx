@@ -11,9 +11,11 @@ import Speaker from './Component/Speaker/Speaker'
 import Contact from './Component/Contact/Contact'
 import Abstract from './Component/Abstracts/Abstracts'
 import Registration from './Component/Registration/Registration'
-import Progamme from './Component/Progamme/Progamme'
-import Accepted from './Component/Accepted/Accepted'
-import Sponsor from './Component/Sponsor/Sponsor'
+import Newupdate from './Component/Newupdate/Newupdate'
+import Schedule from './Component/Schedule/Schedule'
+import Publication from './Component/Publication/Publication'
+import Travel from './Component/Travel/Travel'
+// import Sponsor from './Component/Sponsor/Sponsor'
 
 
 function App() {
@@ -30,11 +32,13 @@ function App() {
           <Route path='/committees' element={<Committes />} />
           <Route path='/speaker' element={<Speaker />} />
           <Route path='/abstract' element={<Abstract />} />
-          <Route path='/programme' element={<Progamme />} />
-          <Route path='/acceptedpaper' element={<Accepted />} />
+          <Route path='/newupdate' element={<Newupdate />} />
+          <Route path='/schedule' element={<Schedule />} />
+          <Route path='/publication' element={<Publication/>}/>
+          <Route path='/travel' element={<Travel/>}/>
           <Route path='/registration' element={<Registration />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/sponsor' element={<Sponsor />} />
+          {/* <Route path='/sponsor' element={<Sponsor />} /> */}
 
         </Routes>
         <Footer/>

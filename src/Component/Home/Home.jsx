@@ -57,7 +57,7 @@ research.
                     </iframe>
                 </div>
             </div>
-        <h1 className="speakerheading">Keynote Speaker :</h1>
+        {/* <h1 className="speakerheading">Keynote Speaker :</h1>
         <div className="speakers">
           {SpeakerData.length > 0 ? (
             SpeakerData.map((speaker, index) => (
@@ -76,21 +76,27 @@ research.
           {SpeakerData.length > 0 && (
             <p className="morspeaker">More speakers coming soon ....</p>
           )}
-        </div>
+        </div> */}
        
         <div className="conthemes">
           <h1 className="conthemetitle">Conference Themes:</h1>
+          <div className="flex">
           <ul className=" list-disc  contheme" >
             <li>Nanomaterials and technology</li>
             <li>Nanobiotechnology</li>
             <li>Nanomedicine</li>
             <li>Energy storage and solar cells</li>
             <li>Biomimetics and Biosensors</li>
+          </ul>
+          <ul className=" list-disc  contheme">
+         
             <li>Nanotech Environment</li>
             <li>AI/ML in Nanotech</li>
             <li>Nano surfaces and engineering</li>
             <li>Nanocatalysis and reaction engineering</li>
           </ul>
+          
+          </div>
         </div>
       </div>
     </>

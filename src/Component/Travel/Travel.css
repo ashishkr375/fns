@@ -1,0 +1,9 @@
+.harshh{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 5rem;
+    margin:3rem;
+    margin-left: 0rem;
+}

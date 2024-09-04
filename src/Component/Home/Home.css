@@ -97,7 +97,7 @@
 .venue-container {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   margin-top: 20px;
   justify-content: center;
 }
@@ -117,9 +117,13 @@
 @media (max-width: 768px) {
   .venue-container {
     flex-direction: column;
+    width: 100%;
   }
-
+  .image-container img{
+    width: 100%;
+  }
   .map-container iframe {
     height: 300px;
+    width: 100%;
   }
 }

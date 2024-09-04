@@ -1,0 +1,45 @@
+.cardd{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    border: 1px solid rgb(114, 17, 17);
+
+}
+.cardd img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+.cardd-content{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardd h1{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(34, 32, 32);
+}
+.cardd p{
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+#hhhh{
+    border: 1px solid black;
+    border-radius: .35rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    font-size: 1rem;
+    color: rgb(32, 29, 29);
+    font-weight: 400;
+   transition: .5s all;
+}
+#hhhh:hover{
+    background-color: rgb(54, 51, 51);
+    color: white;
+}

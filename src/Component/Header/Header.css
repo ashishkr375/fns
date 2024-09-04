@@ -31,7 +31,7 @@
     width: 15%;
 }
 .butt{
-   color: black;
+color: black;
     font-size: 1.3rem;
     margin-right: 2rem;
     cursor: pointer;
@@ -43,7 +43,7 @@
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: 600;
-    transition: all 0.3s;
+    transition: all 0.3s;   
      box-shadow: 2px 5px 10px rgb(109, 114, 1);
 
 }
@@ -180,6 +180,22 @@
         width: 100%;
         border-right: none;
         padding: 15px;
+    }
+    .buttonn{
+        width:20%;
+    }
+    .butt{
+    margin-right: 5rem;
+    cursor: pointer;
+    border: none;
+    background-color: #FFD700  ;
+    padding: .7rem ;
+    border-radius: 10px;
+    font-size: .7rem;
+    font-weight: 500;
+    transition: all 0.3s;   
+     box-shadow: 2px 5px 10px rgb(109, 114, 1);
+
     }
  .container .header .menu {
 

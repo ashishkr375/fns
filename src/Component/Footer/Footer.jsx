@@ -34,7 +34,7 @@ function Footer() {
               </a>
             </p>
           </div>
-          <div className="md:mt-10 col-span-2 ">
+          <div className="md:mt-10 col-span-2 hhhh ">
             Email: <a href="mailto:subratad@nitp.ac.in">subratad@nitp.ac.in </a>
             <br />
             Email:{" "}
