@@ -34,7 +34,7 @@ function Header() {
             {/* <h2>Frontiers in Nanomaterials Sciences:</h2>
             <h2> Aspects in Biotechnology and Chemical Engineering</h2>
             <span>(Hybrid Mode)</span> */}
-            <h2>
+            <Link to="/" className="link" onClick={handleLinkClick}><h2>
               <p className="md:text-base bottomtext"> INTERNATIONAL CONFERENCE</p>
               <p className=" md:text-sm hidden md:block bottomtext">ON</p>
               <p className="text-cyan-800 font-bold">
@@ -52,7 +52,8 @@ italic"
               >
                 (Hybrid Mode)
               </p>
-            </h2>
+            </h2></Link>
+            
           </div>
           <div className="buttonn">
             <div className="">
