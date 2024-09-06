@@ -61,8 +61,8 @@ function Registration() {
     <div className="registration-table md:mx-96">
       <h2 className='text-2xl text-red-700'>Bank Details</h2>
       <div className=''>
-      <p className='font-bold'>Registration amount has to be made in favor of :<br></br></p>
-      <p>
+      <p className='font-bold text-left'>Registration amount has to be made in favor of :<br></br></p>
+      <p className='text-left'>
         Name of the account : NIT Patna CF Account<br></br>
         Current Account No. : 50433562364<br></br>
         IFSC Code : IDIB000B810<br></br>
