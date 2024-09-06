@@ -15,3 +15,15 @@
 .acc img{
   width: 50%;
 }
+
+@media screen and (max-width: 768px){
+  .acc{
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .acc img{
+    width: 100%;
+    
+  }
+}
