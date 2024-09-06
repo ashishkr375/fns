@@ -5,7 +5,7 @@ import logo from "../Header/logo.jpg";
 function Footer() {
   return (
     <>
-      <div className="footer text-black bg-[#ffad92]">
+      <div className="footer text-black">
         <div className="footer-content grid grid-cols-1 md:grid-cols-5 mx-5 md:mx-32 gap-4 md:gap-12">
           <div className="w-20 h-20 md:w-32 md:h-32 md:mt-10 md:ml-10 imgfooter">
             <a

@@ -6,7 +6,7 @@
 
 .nitp-img img {
   width: 100%;
-  height: 70vh;
+  height: auto;
   object-fit: cover;
 }
 .speakerheading {
@@ -28,8 +28,8 @@
   font-weight: 400;
   margin: 3rem;
 }
-.hometext2{
-  margin:1rem auto;
+.hometext2 {
+  margin: 1rem auto;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -75,7 +75,7 @@
 @media only screen and (max-width: 600px) {
   .nitp-img img {
     width: 100%;
-    height: 30vh;
+    height:auto;
     object-fit: cover;
   }
   .speakers {
@@ -111,7 +111,6 @@
 .map-container iframe {
   width: 600px;
   height: 100%;
-  
 }
 
 @media (max-width: 768px) {
@@ -119,7 +118,7 @@
     flex-direction: column;
     width: 100%;
   }
-  .image-container img{
+  .image-container img {
     width: 100%;
   }
   .map-container iframe {
