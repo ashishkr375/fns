@@ -169,13 +169,7 @@
   .containerHead .navbar ul li .link {
     width: 100%;
     border-right: none;
-    padding: 15px;
-  }
-  .buttonn {
-    width: 20%;
-  }
-  .butt {
-    margin-right: 5rem;
+
     cursor: pointer;
     border: none;
     background-color: #ffd700;
@@ -200,3 +194,4 @@
     z-index: 100;
   }
 }
+

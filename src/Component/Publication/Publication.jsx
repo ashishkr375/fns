@@ -1,4 +1,5 @@
 import React from 'react'
+import './Publication.css'
 
 function Publication() {
   return (
@@ -23,7 +24,7 @@ The main themes include, but are not limited t
       The main themes include, but are not limited to:
       </h2>
       <div className="conthemes">
-          <div className="flex">
+          <div className="hiii">
           <ul className=" list-disc  contheme" >
             <li>Nanomaterials and technology</li>
             <li>Nanobiotechnology</li>

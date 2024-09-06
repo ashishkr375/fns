@@ -45,6 +45,7 @@
   color: rgb(178, 30, 30);
 }
 .conthemes {
+
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
@@ -62,6 +63,9 @@
   font-weight: 400;
   margin: 0.4rem 0;
 }
+.fle{
+  display: flex;
+}
 @media only screen and (max-width: 1025px) {
   .speakers {
     grid-template-columns: 1fr 1fr 1fr;
@@ -70,6 +74,9 @@
 @media only screen and (max-width: 768px) {
   .speakers {
     grid-template-columns: 1fr 1fr;
+  }
+  .fle{
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -100,6 +107,7 @@
   gap: 10px;
   margin-top: 20px;
   justify-content: center;
+  
 }
 
 .image-container img {
