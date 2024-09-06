@@ -9,95 +9,12 @@ import './Registration.css'
 
 function Registration() {
   const fees = [
-    { category: 'Indian students', offline: 'Rs. 3000/-', online: 'Rs. 2000/-' },
+    { category: 'Indian students', offline: 'Rs. 3400/-', online: 'Rs. 2200/-' },
     { category: 'Foreign students', offline: '150 USD', online: '100 USD' },
-    { category: 'Indian Academicians', offline: 'Rs. 4000/-', online: 'Rs. 3000/-' },
+    { category: 'Indian Academicians', offline: 'Rs. 4500/-', online: 'Rs. 3500/-' },
     { category: 'Foreign Academicians', offline: '250 USD', online: '200 USD' },
-    { category: 'Industry participants', offline: 'Rs. 5000/-', online: 'Rs. 4000/-' },
+    { category: 'Industry participants', offline: 'Rs. 5500/-', online: 'Rs. 4500/-' },
   ];
-  const [formData, setFormData] = useState({
-    participantName: '',
-    dob: '',
-    profession: '',
-    otherProfession: '',
-    participationType: '',
-    instituteName: '',
-    rollIdNumber: '',
-    supervisorName: '', // Not required
-    country: '',
-    email: '',
-    phone: '',
-    areYou: '',
-    hostelAccommodation: '', // Changed to empty string
-    guestHouseAccommodation: '', // Changed to empty string
-    proofOfTransactionLink: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Simple client-side validation
-    const requiredFields = [
-      'participantName', 'dob', 'profession', 'instituteName', 
-      'rollIdNumber', 'country', 'email', 'phone', 'areYou'
-    ];
-
-    const missingFields = requiredFields.filter(field => !formData[field]);
-
-    if (missingFields.length > 0) {
-      alert('Please fill in all required fields.');
-      return;
-    }
-
-    const formDataToSend = new FormData();
-    for (const key in formData) {
-      formDataToSend.append(key, formData[key]);
-    }
-
-    try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbx_DT8PowiFdLAHlghdn8IPFdIwZH4nzuEd3bKPp-Qqvaxr-mptDtWSX7ptNbxOFBe9/exec', 
-        { 
-          method: 'POST',
-          body: formDataToSend,
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-          }
-        });
-      if (response.ok) {
-        alert('Data submitted successfully!');
-        setFormData({
-          participantName: '',
-          dob: '',
-          profession: '',
-          otherProfession: '',
-          participationType: '',
-          instituteName: '',
-          rollIdNumber: '',
-          supervisorName: '', // Resetting optional field
-          country: '',
-          email: '',
-          phone: '',
-          areYou: '',
-          hostelAccommodation: '',
-          guestHouseAccommodation: '',
-          proofOfTransactionLink: '',
-        });
-      } else {
-        alert('Failed to submit the form.');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      alert('An error occurred while submitting the form.');
-    }
-  };
   return (
     <>
     {/* <div className="accepted grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 mx-3 md:mx-24">
@@ -133,10 +50,25 @@ function Registration() {
         </tbody>
       </table>
       <p className='text-center'>* All registration fees are including applicable tax</p>
+      <p className='font-extrabold'>Dates and Deadlines<br></br></p><p>
+(i)  Early bird registration: 6-21 Oct, 2024 <br></br>
+
+(ii) Late registration: after 21 Oct, 2024 (additional charges of Rs. 500 (for Indians) and 10 USD for foreign students/delegates is applicable)
+<br></br>
+(iii) Accompanying person charges: Rs. 2000/30 USD
+</p>
     </div>
-    <div className="registration-table">
+    <div className="registration-table md:mx-96">
       <h2 className='text-2xl text-red-700'>Bank Details</h2>
-      <p className='text-center'>Will be Updated soon !</p>
+      <div className=''>
+      <p className='font-bold'>Registration amount has to be made in favor of :<br></br></p>
+      <p>
+        Name of the account : NIT Patna CF Account<br></br>
+        Current Account No. : 50433562364<br></br>
+        IFSC Code : IDIB000B810<br></br>
+        Bank Name : Indian Bank<br></br>
+        Branch : NIT Patna
+      </p></div>
     </div>
     
     <div className="registration-table">

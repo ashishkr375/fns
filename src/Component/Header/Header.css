@@ -1,3 +1,180 @@
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height: 19vh;
+  
+
+
+}
+.container .header{
+ display: flex;
+ justify-content:space-between;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  
+}
+.container .header .menu{
+  display: none;
+ font-size: 2rem;
+ margin-right: 2rem;
+}
+.container .header .logo{
+  width: 6rem;
+  height: 6rem;
+  margin-left: 3rem;
+  
+}
+.container .header .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .header .heading{
+  margin-right: 8rem;
+  width: 80%;
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  
+}
+.container .header .heading h2{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .header .heading span{
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 550;
+  color:rgb(255, 0, 0);
+}
+
+.container .navbar{
+ height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+.container .navbar ul{
+  width: 100%;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #C30;
+  border-bottom: #CCC solid 2px;
+  border-top: #CCC solid 2px;
+  display: flex;
+  justify-content: center;
+  
+}
+.container .navbar ul li .link{
+  color: #ffffff;
+  display: inline-block;
+  line-height: 32px;
+  padding-left: 43px;
+  padding-right: 43px;
+  text-align: center;
+  text-decoration: none;
+  border-right: #CCC solid 1px;
+  transition: background-color 0.3s;
+  
+}
+.container .navbar ul li:last-child .link{
+  border-right: none;
+}
+.container .navbar ul li .link:hover{
+  background-color: rgb(41, 72, 123);
+
+}
+
+@media screen and (max-width: 768px){
+  .container .header .logo{
+      width: 6rem;
+      height: 6rem;
+      margin-left: 0.75rem;
+     }
+     .container{
+      height: 12vh;
+     }
+     
+     .container .navbar ul li .link{
+      padding-left: 20px;
+      padding-right: 20px;}
+
+}
+
+@media screen and (max-width: 768px){
+  .container .header .logo{
+   width: 3.5rem;
+   height: 3rem;
+   margin-left: 0.75rem;
+  }
+  .container{
+   height: 10vh;
+   border-bottom: #C30 solid 2px;
+  }
+  .container .header .menu{
+   display: block;
+  }
+   .container .header .heading{
+    margin-right: 1rem;
+
+
+   }
+   .container .header .heading h2{
+       font-size: 0.5rem;
+   }
+   .container .header .heading span{
+       font-size: 0.75rem;
+   }
+  .container .navbar{
+   height: 60vh;
+   position: absolute;
+   left:0;
+   top:5.5rem;
+   transition: all 0.8s;
+   z-index: 100;
+  }
+  .container .navbar ul {
+      height: 100%;
+      flex-direction: column;
+
+  }
+  .container .navbar ul li {
+      border-bottom: #CCC solid 1px;
+      width: 100%;
+      text-align: center;
+
+  }
+  .container .navbar ul li .link{
+      width: 100%;
+      border-right: none;
+      padding: 15px;
+  }
+.container .header .menu {
+
+  margin-right: 0.5rem;
+}
+   
+}
+@media screen and (max-width: 380px){
+  .container .navbar{
+      height: 85vh;
+      position: absolute;
+      left:0;
+      top:4rem;
+      transition: all 0.8s;
+      z-index: 100;
+     }
+
+}
 .containerHead {
   display: flex;
   justify-content: center;
@@ -35,7 +212,7 @@
   margin-right: 2rem;
   cursor: pointer;
   border: none;
-  background-color: #ffd700;
+  
   padding: 1.2rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
@@ -43,12 +220,9 @@
   font-size: 1.5rem;
   font-weight: 600;
   transition: all 0.3s;
-  box-shadow: 2px 5px 10px rgb(109, 114, 1);
+ 
 }
-.butt:hover {
-  background-color: #bfa304;
-  color: #000;
-}
+
 .containerHead .header .logo img {
   width: 100%;
   height: 100%;
@@ -178,16 +352,19 @@
     margin-right: 5rem;
     cursor: pointer;
     border: none;
-    background-color: #ffd700;
+  
     padding: 0.7rem;
     border-radius: 10px;
     font-size: 0.7rem;
     font-weight: 500;
     transition: all 0.3s;
-    box-shadow: 2px 5px 10px rgb(109, 114, 1);
+  
   }
   .containerHead .header .menu {
     margin-right: 0.5rem;
+  }
+   .bottomtext{
+    font-size: 0.85em;
   }
 }
 @media screen and (max-width: 380px) {
@@ -199,4 +376,6 @@
     transition: all 0.8s;
     z-index: 100;
   }
+ 
+
 }
