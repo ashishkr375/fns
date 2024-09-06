@@ -11,19 +11,19 @@ function Home() {
   
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-5 mx-5">
-        <div className="leftside">
+      <div className="grid grid-cols-1 md:grid-cols-10 gap-5 mt-5 mx-5">
+        <div className="leftside md:col-span-3">
           <Sidebar />
         </div>
 
-        <div className="md:col-span-2">
+        <div className="md:col-span-4">
           <div className="notice-img">
             <div className="nitp-img">
               <img src={img3} alt="fins" />
             </div>
           </div>
         </div>
-        <div className="nitp-notice">
+        <div className="nitp-notice md:col-span-3">
           <Notice />
         </div>
       </div>

@@ -18,7 +18,7 @@ function Header() {
   };
   return (
     <>
-      <div className="container">
+      <div className="containerHead">
         <div className="header">
           <div className="logo">
             <a
@@ -35,17 +35,17 @@ function Header() {
             <h2> Aspects in Biotechnology and Chemical Engineering</h2>
             <span>(Hybrid Mode)</span> */}
             <h2>
-              <p> INTERNATIONAL CONFERENCE</p>
-              <p>ON</p>
-              <p className="text-cyan-500 font-bold">
+              <p > INTERNATIONAL CONFERENCE</p>
+              <p className="text-sm">ON</p>
+              <p className="text-cyan-800 font-bold">
                 FRONTIERS IN NANOMATERIALS SCIENCES:
               </p>
               <p className="text-purple-500 font-bold">
                 {" "}
                 ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
               </p>
-              <p className="font-bold"> (FINS 2K24), NIT Patna Bihar India,</p>
-              <p className="font-bold">21-23 December 2024</p>
+              <p className="font-bold text-base"> (FINS 2K24), NIT Patna Bihar India,</p>
+              <p className="font-bold text-base">21-23 December 2024</p>
               <p
                 className="text-purple-500
 italic"

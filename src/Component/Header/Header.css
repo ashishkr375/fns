@@ -1,215 +1,197 @@
-.container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    height: 35vh;
-    
+.containerHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 32vh;
+  width: 100%;
+}
+.containerHead .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 27vh;
+  width: 100%;
+  background: url("bg1.png");
+  background-size: cover;
+  
+}
+.containerHead .header .menu {
+  display: none;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.containerHead .header .logo {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 3rem;
+}
+.buttonn {
+  width: 15%;
+}
+.butt {
+  color: black;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ffd700;
+  padding: 1.2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  box-shadow: 2px 5px 10px rgb(109, 114, 1);
+}
+.butt:hover {
+  background-color: #bfa304;
+  color: #000;
+}
+.containerHead .header .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.containerHead .header .heading {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.containerHead .header .heading h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.containerHead .header .heading span {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: rgb(255, 0, 0);
+}
 
+.containerHead .navbar {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+.containerHead .navbar ul {
+  width: 100%;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgb(162, 0, 0);
+  border-bottom: #ccc solid 2px;
+  border-top: #ccc solid 2px;
+  display: flex;
+  justify-content: center;
+}
+.containerHead .navbar ul li .link {
+  color: #ffffff;
+  display: inline-block;
+  line-height: 32px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+  text-decoration: none;
+  /* border-right: #ccc solid 1px; */
+  transition: background-color 0.3s;
+}
+.containerHead .navbar ul li:last-child .link {
+  border-right: none;
+}
+.containerHead .navbar ul li .link:hover {
+  background-color: rgb(41, 72, 123);
+}
 
-}
-.container .header{
-   display: flex;
-   justify-content:space-between;
-    align-items: center;
-    height: 30vh;
-    width: 100%;
-    
-}
-.container .header .menu{
-    display: none;
-   font-size: 2rem;
-   margin-right: 2rem;
-}
-.container .header .logo{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 3rem;
-    
-}
-.buttonn{
-    width: 15%;
-}
-.butt{
-color: black;
-    font-size: 1.3rem;
-    margin-right: 2rem;
-    cursor: pointer;
-    border: none;
-    background-color: #FFD700  ;
-    padding: 1.2rem ;
-    padding-top: .8rem;
-    padding-bottom: .8rem;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    transition: all 0.3s;   
-     box-shadow: 2px 5px 10px rgb(109, 114, 1);
+@media screen and (max-width: 768px) {
+  .containerHead .header .logo {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 0.75rem;
+  }
+  .containerHead {
+    height: 12vh;
+  }
 
+  .containerHead .navbar ul li .link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-.butt:hover{
-    background-color: #bfa304;
-    color: #000;
-}
-.container .header .logo img{
-    width: 100%;
+
+@media screen and (max-width: 768px) {
+  .containerHead .header .logo {
+    width: 3.5rem;
+    height: 3rem;
+    margin-left: 0.75rem;
+  }
+  .containerHead {
+    height: 10vh;
+    border-bottom: #c30 solid 2px;
+  }
+  .containerHead .header .menu {
+    display: block;
+  }
+  .containerHead .header .heading {
+    margin-right: 1rem;
+  }
+  .containerHead .header .heading h2 {
+    font-size: 0.5rem;
+  }
+  .containerHead .header .heading span {
+    font-size: 0.75rem;
+  }
+  .containerHead .navbar {
+    height: 75vh;
+    position: absolute;
+    left: 0;
+    top: 5.5rem;
+    transition: all 0.8s;
+    z-index: 100;
+  }
+  .containerHead .navbar ul {
     height: 100%;
-    object-fit: cover;
-}
-.container .header .heading{
-    width: 50%;
-    display: flex;
-    justify-content:flex-start;
     flex-direction: column;
-    
-}
-.container .header .heading h2{
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-.container .header .heading span{
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 550;
-    color:rgb(255, 0, 0);
-}
-
-.container .navbar{
-   height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
+  .containerHead .navbar ul li {
+    border-bottom: #ccc solid 1px;
     width: 100%;
-    font-size: 16px;
-    overflow: hidden;
-}
-.container .navbar ul{
-    width: 100%;
-    height: 35px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: #C30;
-    border-bottom: #CCC solid 2px;
-    border-top: #CCC solid 2px;
-    display: flex;
-    justify-content: center;
-    
-}
-.container .navbar ul li .link{
-    color: #ffffff;
-    display: inline-block;
-    line-height: 32px;
-    padding-left: 43px;
-    padding-right: 43px;
     text-align: center;
-    text-decoration: none;
-    border-right: #CCC solid 1px;
-    transition: background-color 0.3s;
-    
-}
-.container .navbar ul li:last-child .link{
+  }
+  .containerHead .navbar ul li .link {
+    width: 100%;
     border-right: none;
-}
-.container .navbar ul li .link:hover{
-    background-color: rgb(41, 72, 123);
 
-}
-
-@media screen and (max-width: 768px){
-    .container .header .logo{
-        width: 6rem;
-        height: 6rem;
-        margin-left: 0.75rem;
-       }
-       .container{
-        height: 12vh;
-       }
-       
-       .container .navbar ul li .link{
-        padding-left: 20px;
-        padding-right: 20px;}
-
-}
-
-@media screen and (max-width: 768px){
-    .container .header .logo{
-     width: 3.5rem;
-     height: 3rem;
-     margin-left: 0.75rem;
-    }
-    .container{
-     height: 15vh;
-     border-bottom: #C30 solid 2px;
-    }
-    .container .header .menu{
-     display: block;
-    }
-     .container .header .heading{
-      margin-right: 1rem;
- 
- 
-     }
-     .container .header .heading h2{
-         font-size: 0.5rem;
-     }
-     .container .header .heading span{
-         font-size: 0.75rem;
-     }
-    .container .navbar{
-     height: 75vh;
-     position: absolute;
-     left:0;
-     top:8.5rem;
-     transition: all 0.8s;
-     z-index: 100;
-    }
-    .container .navbar ul {
-        height: 100%;
-        flex-direction: column;
-
-    }
-    .container .navbar ul li {
-        border-bottom: #CCC solid 1px;
-        width: 100%;
-        text-align: center;
-
-    }
-    .container .navbar ul li .link{
-        width: 100%;
-        border-right: none;
-        padding: 15px;
-    }
-    .buttonn{
-        width:20%;
-    }
-    .butt{
     cursor: pointer;
     border: none;
-    background-color: #FFD700  ;
-    padding: .7rem ;
+    background-color: #ffd700;
+    padding: 0.7rem;
     border-radius: 10px;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 500;
-    transition: all 0.3s;   
-     box-shadow: 2px 5px 10px rgb(109, 114, 1);
-
-    }
- .container .header .menu {
-
+    transition: all 0.3s;
+    box-shadow: 2px 5px 10px rgb(109, 114, 1);
+  }
+  .containerHead .header .menu {
     margin-right: 0.5rem;
+  }
 }
-     
- }
- @media screen and (max-width: 380px){
-    .container .navbar{
-        height: 95vh;
-        position: absolute;
-        left:0;
-        top:6.1rem;
-        transition: all 0.8s;
-        z-index: 100;
-       }
+@media screen and (max-width: 380px) {
+  .containerHead .navbar {
+    height: 95vh;
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    transition: all 0.8s;
+    z-index: 100;
+  }
+}
 
- }
