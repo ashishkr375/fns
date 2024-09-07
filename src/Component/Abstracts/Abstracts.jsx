@@ -42,7 +42,7 @@ function Abstract() {
             <h2 className="font-bold text-xl">Download Format </h2>
           {/* <a href="https://docs.google.com/document/d/1WhvNM89H5vEBPYyKctGpvXeGf7NUdX7L/edit?usp=sharing&ouid=102606446907931183594&rtpof=true&sd=true"><img src={img2} width={200}/></a> */}
            <a
-        href="https://docs.google.com/document/d/1WhvNM89H5vEBPYyKctGpvXeGf7NUdX7L/edit?usp=sharing&ouid=102606446907931183594&rtpof=true&sd=true"
+        href="https://drive.google.com/uc?export=download&id=1WhvNM89H5vEBPYyKctGpvXeGf7NUdX7L"
         target="_blank" // Open the link in a new tab
         rel="noopener noreferrer" // Recommended for security reasons
         className="download-link" // Optional: add a class for specific styling
