@@ -18,7 +18,7 @@ will be published in Scopus-indexed Journals.
       <p className='my-2 text-xl'>
       All manuscripts shall not be communicated elsewhere for publication or monetary support. The format of manuscripts shall
 be intimated to all authors as per the journal’s guidelines.
-The main themes include, but are not limited t
+The main themes include, but are not limited to
       </p>
       <h2 className='text-2xl my-3 font-bold'>
       The main themes include, but are not limited to:

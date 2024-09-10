@@ -1,7 +1,6 @@
 
 .committees-layout {
-    margin: 20px;
-    padding: 20px;
+    
     border: 1px solid #ddd;
     border-radius: 8px;
   }
@@ -43,4 +42,7 @@
   .names-list li {
     margin-bottom: 5px;
   }
-  
+  img {
+    width: 100%;
+    height: auto;
+}
