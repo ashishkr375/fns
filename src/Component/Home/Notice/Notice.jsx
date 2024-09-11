@@ -155,7 +155,7 @@ function Notice() {
                         ) : (
                             notice.map((item,index) => (
                                 <div className='harshit' key={index}>
-                                    <img src={svg} alt="download" className='download-svg' /> 
+                                    <img src={svg} alt="download" className='download-svg noticeimg' /> 
                                     <a 
                                     href={item.Link.startsWith('http') ? item.Link : `http://${item.Link}`} 
                                     className='notice-title' 

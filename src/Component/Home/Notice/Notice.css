@@ -7,11 +7,9 @@
   flex-direction: column;
   border: 1px solid #848484;
   /* border-radius: 1rem; */
- 
 }
 
 .notice h1 {
-
   font-weight: 800;
   margin-bottom: 0.5rem;
 }
@@ -47,6 +45,9 @@
     overflow-y: auto;
   }
   .harshit .notice-title {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
+}
+.noticeimg {
+  max-width: 20px;
 }
