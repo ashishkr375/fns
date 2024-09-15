@@ -22,8 +22,9 @@ function Travel() {
         Travel And Accommodation
       </h2>
       <p className='my-2 text-xl'>
-        Accommodation facilities for all speakers are made at the institute’s guest house on a payment basis.
-        Accommodation facilities for all students/participants are made at NIT Patna hostels on a payment basis (limited slots are available).
+        ****Accommodation facilities for all speakers are made at the institute’s guest house on a payment basis.
+        <br />
+        Accommodation facilities for all students/participants are made at NIT Patna hostels on a payment basis (limited slots are available).***
       </p>
       <h2 className='text-2xl text-red-700 text-left font-bold'>
         Other premium accommodation facilities:

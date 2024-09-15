@@ -55,7 +55,7 @@ function Speaker() {
             <p className="nospeaker">Speakers comming soon.....</p>
           )}
           {SpeakerData.length > 0 && (
-            <p className="morspeaker"></p>
+            <p className="morspeaker">more speakers to be announced soon</p>
           )}
         </div>
       </div>

@@ -15,6 +15,8 @@ nanotechnology, and chemical engineering are encouraged to be submitted. The acc
 will be published in Scopus-indexed Journals.
 
       </p>
+      <h2 className='text-xl my-3 text-red-600'> Conference collective papers for publication in SCI approved Journals: (Details to be updated soon)
+      </h2>
       <p className='my-2 text-xl'>
       All manuscripts shall not be communicated elsewhere for publication or monetary support. The format of manuscripts shall
 be intimated to all authors as per the journal’s guidelines.
@@ -38,6 +40,7 @@ The main themes include, but are not limited to
             <li>AI/ML in Nanotech</li>
             <li>Nano surfaces and engineering</li>
             <li>Nanocatalysis and reaction engineering</li>
+            <li>Nanotherapeutics</li>
           </ul>
           
           </div>
