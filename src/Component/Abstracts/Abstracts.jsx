@@ -38,10 +38,9 @@ function Abstract() {
             were screened for oral/poster presentations and will intimated to
             the authors.
           </p>
+          <p className="text-2xl">All abstracts must be send via email to <a href="mailto:icfns2024.conf@nitp.ac.in " className="text-red-500">icfns2024.conf@nitp.ac.in</a></p>
           <div className="micro">
-            <h2 className="font-bold text-xl">Download Format </h2>
-          {/* <a href="https://docs.google.com/document/d/1WhvNM89H5vEBPYyKctGpvXeGf7NUdX7L/edit?usp=sharing&ouid=102606446907931183594&rtpof=true&sd=true"><img src={img2} width={200}/></a> */}
-           <a
+          <a
         href="https://drive.google.com/uc?export=download&id=1WhvNM89H5vEBPYyKctGpvXeGf7NUdX7L"
         target="_blank" // Open the link in a new tab
         rel="noopener noreferrer" // Recommended for security reasons
@@ -49,6 +48,9 @@ function Abstract() {
       >
         <img src={img2} width={200} alt="Download Document" />
       </a>
+            <h2 className="font-bold text-xl text-red-600">Download Abstract format
+            </h2>
+          
           </div>
         </div>
       </div>
