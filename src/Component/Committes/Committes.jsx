@@ -101,8 +101,7 @@ function Committes() {
                   Prof. Aniruddha Paul
                 </h3>
                 <p className="text-gray-700 text-xl">
-                  Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
-                  and Tech
+                  Asst. Prof Dept. of Chem. 
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
@@ -119,8 +118,7 @@ function Committes() {
                   Prof. Niki S. Jha
                 </h3>
                 <p className="text-gray-700 text-xl">
-                  Assoc. Prof.Dept. of Chem. & Dept. of Chem. Engg.
-                  and Tech
+                  Assoc. Prof. Dept. of Chem. 
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
@@ -142,7 +140,7 @@ function Committes() {
                   Dr. Sanjeev Verma
                 </h4>
                 <p className="text-gray-700 text-xl">
-                  Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
+                  Asst. Prof  Dept. of Chem. Engg.
                   and Tech
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
@@ -159,7 +157,7 @@ function Committes() {
                   Dr. Awadh K. Kumar
                 </h4>
                 <p className="text-gray-700 text-xl">
-                  Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
+                  Asst. Prof Dept. of Chem. Engg.
                   and Tech
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
@@ -176,7 +174,7 @@ function Committes() {
                   Dr. Abhay K. Choudhary
                 </h4>
                 <p className="text-gray-700 text-xl">
-                  Asst. Prof. Dept. of Chem. & Dept. of Chem. Engg.
+                  Asst. Prof. Dept. of Chem. Engg.
                   and Tech
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
@@ -193,7 +191,7 @@ function Committes() {
                   Dr. Banavath A. K. Naik
                 </h4>
                 <p className="text-gray-700 text-xl">
-                  Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
+                  Asst. Prof  Dept. of Chem. Engg.
                   and Tech
                 </p>
                 <p className="text-gray-700 text-xl">NIT Patna</p>
