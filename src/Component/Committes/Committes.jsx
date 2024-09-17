@@ -104,6 +104,7 @@ function Committes() {
                   Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
 
               {/* Treasurer */}
@@ -121,6 +122,7 @@ function Committes() {
                   Assoc. Prof.Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
             </div>
 
@@ -143,6 +145,7 @@ function Committes() {
                   Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
 
               {/* Dr. Awadh K. Kumar */}
@@ -159,6 +162,7 @@ function Committes() {
                   Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
 
               {/* Dr. Abhay K. Choudhary */}
@@ -175,6 +179,7 @@ function Committes() {
                   Asst. Prof. Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
 
               {/* Dr. Banavath A. K. Naik */}
@@ -191,6 +196,7 @@ function Committes() {
                   Asst. Prof Dept. of Chem. & Dept. of Chem. Engg.
                   and Tech
                 </p>
+                <p className="text-gray-700 text-xl">NIT Patna</p>
               </div>
             </div>
           </div>
