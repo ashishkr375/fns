@@ -35,11 +35,8 @@ function Footer() {
             </p>
           </div>
           <div className="md:mt-10 col-span-2 hhhh ">
-            Email: <a href="mailto:subratad@nitp.ac.in">subratad@nitp.ac.in </a>
-            <br />
-            Email:{" "}
-            <a href="mailto:aniruddha@nitp.ac.in"> aniruddha@nitp.ac.in </a>
-            <br />
+            Email: <a href="mailto:icfns2024.conf@nitp.ac.in  ">icfns2024.conf@nitp.ac.in   </a>
+            
           </div>
         </div>
         <h2 className="text-blue-950 text-xl font-extrabold h1h1">Jointly organized by Dept. of Chemistry and Dept. of Chem. Engg and Tech. NIT Patna</h2>

@@ -27,21 +27,20 @@ The main themes include, but are not limited to
       </h2>
       <div className="conthemes">
           <div className="hiii">
-          <ul className=" list-disc  contheme" >
-            <li>Nanomaterials and technology</li>
-            <li>Nanobiotechnology</li>
-            <li>Nanomedicine</li>
-            <li>Energy storage and solar cells</li>
-            <li>Biomimetics and Biosensors</li>
-          </ul>
-          <ul className=" list-disc  contheme">
-         
-            <li>Nanotech Environment</li>
-            <li>AI/ML in Nanotech</li>
-            <li>Nano surfaces and engineering</li>
-            <li>Nanocatalysis and reaction engineering</li>
-            <li>Nanotherapeutics</li>
-          </ul>
+          <ul className="list-disc contheme">
+    <li>Nanomaterials and technology</li>
+    <li>Nanobiotechnology</li>
+    <li>Nanomedicine and Nanoenzymes</li>
+    <li>Energy storage devices and solar cells</li>
+    <li>Sensors and devices</li>
+  </ul>
+  <ul className="list-disc contheme">
+    <li>Environmental Nanotechnology</li>
+    <li>Nanotechnology in AI/ML</li>
+    <li>Nano surfaces and engineering</li>
+    <li>Nano catalysis</li>
+    <li>Nanotherapeutics</li>
+  </ul>
           
           </div>
         </div>
