@@ -37,8 +37,8 @@ export const SpeakerData = [
 
     // Level 3 Speakers (ROW 3)
     {img:img4, name:"Prof. Robin Dutta", institute:"Tezpur University", place: "India", pre:"https://www.tezu.ernet.in/faculty/Robin-Dutta"},
-    {img:"https://neist.res.in/photo/1177.jpg", name:"Prof. Binay Saikia", institute:"CSIR-NEIST", place: "India", pre:"https://neist.res.in/1177.php"},
-    {img:img5, name:"Dr. Amol A. Kulkarni", institute:"NCL Pune", place: "India", pre:"https://www.ncl-india.org/amol-kulkarni"},
+    {img:"https://neist.res.in/photo/1177.jpg", name:"Doc. Binay Saikia", institute:"CSIR-NEIST", place: "India", pre:"https://neist.res.in/1177.php"},
+    {img:img5, name:"Dr. Amol A. Kulkarni", institute:"CSIR-NCL Pune", place: "India", pre:"https://www.ncl-india.org/amol-kulkarni"},
     {img:"https://iitjammu.ac.in/faculty/documents/images/1686289162783.jpeg", name:"Prof. Debapriya Mandal", institute:"IIT Jammu", place: "India", pre:"https://iitjammu.ac.in/faculty/~debapriyamandal"},
 
     // Level 4 Speakers (ROW 4)
