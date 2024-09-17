@@ -4,7 +4,7 @@ import "./Committes.css";
 import committee from "./committee_fns.png";
 import anni from "../image/anni.png";
 import pkjain from "../image/pkjain.png";
-import sub from "../image/Subrata.png";
+import sub from "../image/subrata.png";
 import niki from "../image/nikisweta.png";
 import abhay from '../image/abhay.png';
 import sanjeev from '../image/sanjeev.png';
