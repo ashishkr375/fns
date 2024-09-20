@@ -43,7 +43,7 @@ research.
         <p className=" hometext2 " >Meghnad Saha &Visveswaraya, Hall NIT Patna , Bihar, India</p>
         <div className="venue-container">
                 <div className="image-container">
-                    <img src="https://www.nitp.ac.in/static/4017376d992d9de6b8785b862bacd757/d8255/asd_1920x1080.jpg" alt="Venue" />
+                    <img src="https://i.postimg.cc/q4nXgc78/nit-patna-001.jpg" alt="Venue" />
                 </div>
                 <div className="map-container">
                     <iframe 
