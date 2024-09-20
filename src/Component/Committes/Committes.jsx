@@ -58,6 +58,9 @@ function Committes() {
           <div className="min-h-screen  p-6">
             {/* Director Section */}
             <div className="text-center mb-12">
+            <h3 className="text-2xl text-blue-900 font-bold text-center mb-6">
+              chief Patron
+            </h3>
               <img
                 className="mx-auto  w-40 h-40 object-cover"
                 src={pkjain}

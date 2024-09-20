@@ -37,7 +37,7 @@ export const SpeakerData = [
 
     // Level 3 Speakers (ROW 3)
     {img:img4, name:"Prof. Robin Dutta", institute:"Tezpur University", place: "India", pre:"https://www.tezu.ernet.in/faculty/Robin-Dutta"},
-    {img:"https://neist.res.in/photo/1177.jpg", name:"Doc. Binay Saikia", institute:"CSIR-NEIST", place: "India", pre:"https://neist.res.in/1177.php"},
+    {img:"https://neist.res.in/photo/1177.jpg", name:"Dr. Binay Saikia", institute:"CSIR-NEIST", place: "India", pre:"https://neist.res.in/1177.php"},
     {img:img5, name:"Dr. Amol A. Kulkarni", institute:"CSIR-NCL Pune", place: "India", pre:"https://www.ncl-india.org/amol-kulkarni"},
     {img:"https://iitjammu.ac.in/faculty/documents/images/1686289162783.jpeg", name:"Prof. Debapriya Mandal", institute:"IIT Jammu", place: "India", pre:"https://iitjammu.ac.in/faculty/~debapriyamandal"},
 
@@ -47,7 +47,7 @@ export const SpeakerData = [
     {img:"https://www.nitt.edu/home/academics/departments/chem/chemfaculty/Arivazhagan.png", name:"Prof. M. Arivazhagan", institute:"NIT Trichy", place: "India", pre:"https://www.nitt.edu/home/academics/departments/chem/chemfaculty/arivazhagan/"},
     {img:"https://lh3.googleusercontent.com/d/1lZlLuEiNG-dZ9vLED4VGk4gqkRqPNIfz=w320?authuser=0", name:"Prof. Samrat Mukherjee", institute:"NIT Patna", place: "India", pre:"https://www.nitp.ac.in/profile/?id=samrat@nitp.ac.in"},
     {img:img11, name:"Prof. A. Venu Vinod", institute:"     NIT Warangal ", place: "India", pre:"/"},
-    {img:"https://static.wixstatic.com/media/64c08b_bda18c8acb824aaf998f6a0a635161bd~mv2.jpg", name:"Asst. Prof. Subinoy Rana", institute:"IISc Bengaluru", place: "India", pre:"https://www.subinoyranagroup.com/"},
+    {img:"https://static.wixstatic.com/media/64c08b_bda18c8acb824aaf998f6a0a635161bd~mv2.jpg", name:"Dr. Subinoy Rana", institute:"IISc Bengaluru", place: "India", pre:"https://www.subinoyranagroup.com/"},
     {img:img13,name:"Dr. Raghumani S. Ningthoujam", institute:"DAE-BARC", place: "India", pre:"/"},
     {img:img12, name:"Dr. Shailendra K, Jha", institute:"CSIR-NML, Jamshedpur", place: "India", pre:"/"},
 
@@ -55,15 +55,15 @@ export const SpeakerData = [
     {img:"https://static.wixstatic.com/media/3a4f90_99c5c6777cd447e8aad3a5a7c0ea755a~mv2.jpg", name:"Dr. Amitava Acharya", institute:"CSIR-IHBT", place: "India", pre:"https://amitabhaihbt.wixsite.com/website/amitabha-acharya"},
     {img:"https://www.hbni.ac.in/facultyphoto/CBetty.jpg", name:"Prof.  C.A. Betty", institute:"DAE-BARC Mumbai", place: "India", pre:"https://dae.academia.edu/CBetty"},
     {img:"https://www.niperhajipur.ac.in/wp-content/uploads/2023/11/Mandal-300x200.jpg", name:"Prof. Debabrata Mandal", institute:"NIPER Hajipur", place: "India", pre:"https://www.niperhajipur.ac.in/debabrata-mandal/"},
-    {img: img14, name:"Asst. Prof. Ravi. K. Sowani", institute:"IIPE", place: "India", pre:"/"},
+    {img: img14, name:"Dr. . Ravi. K. Sowani", institute:"IIPE", place: "India", pre:"/"},
    
 
     // Level 6 Speakers (ROW 6)
-    {img:img6, name:" Asst. Prof. Suchetan Pal", institute:"IIT Bhilai", place: "India", pre:"https://www.iitr.ac.in/~bio/suchetan"},
-    {img:"https://www.nitrkl.ac.in/docs/Faculty/Photo/1231417.jpg", name:"Asst. Prof. Tapas Das", institute:"NIT Rourkela", place: "India", pre:"https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/dast"},
-    {img:"https://doonuniversity.ac.in/admin/assets/uploads/faculty/20231108174539c16967bd05.jpg", name:"Asst. Prof Shivani Verma", institute:"Doon University, Dehradun", place: "India", pre:"https://doonuniversity.ac.in/index.php/SPS_Chemistry/faculty_details/154"},
+    {img:img6, name:" Dr. Suchetan Pal", institute:"IIT Bhilai", place: "India", pre:"https://www.iitr.ac.in/~bio/suchetan"},
+    {img:"https://www.nitrkl.ac.in/docs/Faculty/Photo/1231417.jpg", name:"Dr. Tapas Das", institute:"NIT Rourkela", place: "India", pre:"https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/dast"},
+    {img:"https://doonuniversity.ac.in/admin/assets/uploads/faculty/20231108174539c16967bd05.jpg", name:"Dr.  Shivani Verma", institute:"Doon University, Dehradun", place: "India", pre:"https://doonuniversity.ac.in/index.php/SPS_Chemistry/faculty_details/154"},
     {img:img15, name:"Dr. Bhaskar J. Choudhary", institute:"Reliance Industries Ltd", place: "India", pre:"/"},
     {img:img16, name:"Dr. Deepak. K. Singh", institute:"Reliance Industries Ltd", place: "India", pre:"/"},
-    {img:img17, name:" Asst. Prof. Rupam Sinha", institute:"NIT Trichy", place: "India", pre:"/"},
-    {img:img18, name:" Asst. Prof. Sunil Kumar Singh", institute:"BITS Sindri", place: "India", pre:"/"},
+    {img:img17, name:" Dr.  Rupam Sinha", institute:"NIT Trichy", place: "India", pre:"/"},
+    {img:img18, name:" Dr.  Sunil Kumar Singh", institute:"BITS Sindri", place: "India", pre:"/"},
 ];
