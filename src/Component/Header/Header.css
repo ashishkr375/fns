@@ -36,6 +36,7 @@
   margin-right: 8rem;
   width: 80%;
   display: flex;
+  /* background-color: #C30 !important; */
   justify-content:flex-start;
   flex-direction: column;
   
@@ -191,6 +192,7 @@
   width: 100%;
   background: url("bg1.png");
   background-size: cover;
+  gap:0rem;
   
 }
 .containerHead .header .menu {
@@ -229,10 +231,11 @@
   object-fit: cover;
 }
 .containerHead .header .heading {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin-left: 2rem;
 }
 .containerHead .header .heading h2 {
   text-align: center;

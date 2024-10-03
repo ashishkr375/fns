@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.jpg";
+import img1 from "./royal1.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -10,7 +11,7 @@ function Header() {
   const navigate = useNavigate();
   const handlego = () => {
     navigate("/registration");
-  }
+  };
   const [show, setShow] = useState(false);
   const style = show ? { display: "block" } : { left: "-100%" };
   const handleLinkClick = () => {
@@ -31,39 +32,52 @@ function Header() {
             </a>
           </div>
           <div className="heading">
-            {/* <h2>Frontiers in Nanomaterials Sciences:</h2>
-            <h2> Aspects in Biotechnology and Chemical Engineering</h2>
-            <span>(Hybrid Mode)</span> */}
-            <Link to="/" className="link" onClick={handleLinkClick}><h2>
-              <p className="md:text-base bottomtext"> INTERNATIONAL CONFERENCE</p>
-              <p className=" md:text-sm hidden md:block bottomtext">ON</p>
-              <p className="text-cyan-800 font-bold">
-                FRONTIERS IN NANOMATERIALS SCIENCES:
-              </p>
-              <p className="text-purple-500 font-bold">
-                {" "}
-                ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
-              </p>
-              <p className="font-bold hidden md:block text-base"> (FINS 2K24), NIT Patna Bihar India,</p>
-              <p className="font-bold hidden md:block text-base">21-23 December 2024</p>
-              <p
-                className="text-purple-500
+            <Link to="/" className="link" onClick={handleLinkClick}>
+              <h2>
+                <p className="md:text-base bottomtext">
+                  {" "}
+                  INTERNATIONAL CONFERENCE
+                </p>
+                <p className=" md:text-sm hidden md:block bottomtext">ON</p>
+                <p className="text-cyan-800 font-bold">
+                  FRONTIERS IN NANOMATERIALS SCIENCES:
+                </p>
+                <p className="text-purple-500 font-bold">
+                  {" "}
+                  ASPECTS IN BIOTECHNOLOGY AND CHEMICAL ENGINEERING
+                </p>
+                <p className="font-bold hidden md:block text-base">
+                  {" "}
+                  (FINS 2K24), NIT Patna Bihar India,
+                </p>
+                <p className="font-bold hidden md:block text-base">
+                  21-23 December 2024
+                </p>
+                <p
+                  className="text-purple-500
 italic"
-              >
-                (Hybrid Mode)
-              </p>
-            </h2></Link>
-            
+                >
+                  (Hybrid Mode)
+                </p>
+              </h2>
+            </Link>
+          </div>
+          <div>
+            <img src={img1} alt="royal" className="h-20 w-25 " />
           </div>
           <div className="buttonn">
             <div className="">
-            {/* <button className="butt" onClick={()=>handlego()}>Register Now</button> */}
-            <button class=" butt relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-700 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 " onClick={()=>handlego()}>
-<span class="relative px-2 py-1 md:px-6 md:py-3 transition-all ease-in duration-75 bg-blue-50 rounded-md group-hover:bg-opacity-0 font-extrabold md:text-2xl">
-Register Now📝
-</span>
-</button>
-          </div></div>
+              {/* <button className="butt" onClick={()=>handlego()}>Register Now</button> */}
+              <button
+                class=" butt relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-700 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                onClick={() => handlego()}
+              >
+                <span class="relative px-2 py-1 md:px-6 md:py-3 transition-all ease-in duration-75 bg-blue-50 rounded-md group-hover:bg-opacity-0 font-extrabold md:text-2xl">
+                  Register Now📝
+                </span>
+              </button>
+            </div>
+          </div>
           <div className="menu" onClick={() => setShow(!show)}>
             <GiHamburgerMenu />
           </div>
@@ -91,11 +105,7 @@ Register Now📝
               </Link>
             </li>
             <li>
-              <Link
-                to="/abstract"
-                className="link"
-                onClick={handleLinkClick}
-              >
+              <Link to="/abstract" className="link" onClick={handleLinkClick}>
                 Abstracts
               </Link>
             </li>
@@ -105,11 +115,7 @@ Register Now📝
               </Link>
             </li>
             <li>
-              <Link
-                to="/schedule"
-                className="link"
-                onClick={handleLinkClick}
-              >
+              <Link to="/schedule" className="link" onClick={handleLinkClick}>
                 Schedule
               </Link>
             </li>
@@ -121,7 +127,7 @@ Register Now📝
               >
                 Publication
               </Link>
-              </li>
+            </li>
             {/* <li>
               <Link to="/sponsor" className="link" onClick={handleLinkClick}>
                 Sponsorship
@@ -142,7 +148,6 @@ Register Now📝
               </Link>
             </li>
             <li>
-
               <Link to="/contact" className="link" onClick={handleLinkClick}>
                 Contact Us
               </Link>
