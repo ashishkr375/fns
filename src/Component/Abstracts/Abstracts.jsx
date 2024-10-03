@@ -28,7 +28,7 @@ function Abstract() {
             Dates and Deadlines<br></br>
               Extended Abstract submission: Upto 31 Oct  2024
             <br />
-            Abstract acceptance: 5-7 Nov, 2024
+            Abstract acceptance: 5 Oct -7 Nov, 2024
             <br />
           </h2>
           <p className="hehe ">
