@@ -47,7 +47,11 @@ function Committes() {
     "Prof. Subinoy Rana, Asst. Prof. Mat. Research Cent., IISc Bengaluru, India.",
     "Prof. Madhav Chavhan, Asst. Prof. Science, University of Ostrava, Czech Republic.",
     "Prof. Isha Mutreja, Asst. Prof. Dept. of Rest. Sci. University of Minnesota, USA.",
-    "Prof. Shubhi Gupta, Asst. Prof. Fuel, Metals and Metallur. Engg., IIT(ISM) Dhanbad, India."
+    "Prof. Shubhi Gupta, Asst. Prof. Fuel, Metals and Metallur. Engg., IIT(ISM) Dhanbad, India.",
+    "Prof. K. K. Nanda, Director, IOP Bhubaneswar",
+    "Prof. Arindam Ghosh, Prof. Dept. of Physics, IISc Bengaluru, India",
+    "Prof. (Dr.) Saikat Dutta, Prof. Amity Institute of Click Chemistry Research, Amity University, India",
+    "Prof. Ranjit Kumar Mishra, Prof. Manipal Institute of Technology, Manipal, India "
   ];
   
   return (

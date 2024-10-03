@@ -31,13 +31,11 @@ function Home() {
         {/* <h1 className="text-center m-20 font-extrabold text-2xl md:text-9xl">Home Content Here</h1> */}
         <h1 className="conthemetitle my-5 "> About FINS,2K24</h1>
         <p className=" hometext1 my-2">
-        The development of nanomaterials has evolved enormously from determining their physiochemical
-properties to isolating their desired properties for which they are utilized in different areas of
-biomedical and chemical engineering etc. Frontiers in nanomaterials sciences (FINS) is the first
-international conference that will be conducted in hybrid mode at NIT Patna to provide an broad
-interdisciplinary forum for researchers, students, scientists practitioners, and industrialists across the
-globe to interact and present their ideas, and concepts on progressive trends in nanomaterials based
-research.
+        National Institute of Technology Patna India, proudly announces the hosting of 1st international conference on "Frontiers in Nanomaterials Sciences: Aspects in Biotechnology and Chemical Engineering (FINS 2K24)" that is jointly organised by the combined efforts from the Department of Chemistry and Department of Chemical Technology. Nanomaterials represents a plethora of inorganic/organic materials that are as small as one-billionth of a meter. The diverse physiochemical properties within these materials makes it one of the most researched materials for development of newer technologies in today’s world and will continue in future as well. As such the progress in utilizing these nanomaterials in the field of nanobiotechnology and chemical engineering-based research are still at its infancy. Hence, the motto of our conference is to provide an international forum for researchers, students, scientists, laureates, and industrialists across the globe to interact and present their ideas regarding the cutting-edge research, and concepts on progressive trends in nanomaterials-based research concerning to the broader sectors of nanobiotechnology and chemical engineering. 
+FINS,2K24 is a three-day programme that is scheduled to be conducted from 21st to 23rd December, 2024 in both off-line as well as online mode. The major thrust areas for the conference include developments in the fields of:
+The symposium will seek to foster stronger collaboration between academia and industry, driving the practical implementation of nanomaterials in real-world applications. The conference will feature keynote speeches, invited talks, panel discussions and showcase the rich diverse culture of Bihar, India on a global scale.  
+The accepted conference papers will be published in proceedings, Scopus/SCI approved journals based on the scientific suitability of the manuscripts decided by the peer-review team 
+
         </p>
         <h1 className="speakerheading">Venue :</h1>
         <p className=" hometext2 " >Meghnad Saha &Visveswaraya, Hall NIT Patna , Bihar, India</p>

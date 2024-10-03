@@ -16,11 +16,14 @@ import img15 from "../image/bhaskar.png"
 import img16 from "../image/deepak.png"
 import img17 from "../image/rupan.png"
 import img18 from "../image/sunil.png"
+import img19 from "../image/saikat.png"
+import img20 from "../image/kknanda.png"
 export const SpeakerData = [
     // Level 1 Speakers (ROW 1)
     {img:"https://research.unsw.edu.au/sites/default/files/styles/profile_small/public/images/profile/photo%20%28LDai%29%20Hi%20Res.jpg?itok=xeOwApcp", name:"Prof. Liming Dai", institute:"UNSW Sydney", place: "Australia", pre:"https://research.unsw.edu.au/people/scientia-professor-liming-dai"},
     {img:"https://www.materialsciencejournal.org/wp-content/uploads/2014/01/Alexander-Seifalian_Editors.jpg", name:"Prof. Alexander M Seifalian", institute:"University College London", place: "ULC England", pre:"https://www.materialsciencejournal.org/alexander-m-seifalian/"},
     {img:img1, name:"Prof. Thomas J. Webster", institute:"Northeastern University", place: " NEU USA", pre:"https://web.northeastern.edu/bio/webster/"},
+    {img:img20, name:" Prof. K. K. Nanda", institute:"IOP, Bhubaneswar", place: "India", pre:"/"},
     {img:img2, name:"Prof. Michael S. Strano", institute:"MIT", place: "USA", pre:"https://cheme.mit.edu/profile/michael-s-strano/"},
 
     // Level 2 Speakers (ROW 2)
@@ -31,8 +34,10 @@ export const SpeakerData = [
 
     //new level 3
     {img:img7, name:"Prof. Pallab Banerji", institute:"IIT Kharagpur", place: "India", pre:"/"},
+    {img:img19, name:" Prof. Saikat Dutta  ", institute:"Amity University", place: "India", pre:"/"},
     {img:img9, name:"Prof. Ram S. Singh", institute:"IIT BHU", place: "India", pre:"/"},
     {img:img10, name:"Prof. Yogesh C Sharma", institute:"IIT BHU", place: "India", pre:"https://www.iitbhu.ac.in/dept/chem/faculty/yogeshchem"},
+ 
     {img:img8, name:"Prof. Gladis G. S. Velazquez", institute:"Polytech. University of Altamira", place: "Mexico", pre:"/"},
 
     // Level 3 Speakers (ROW 3)
@@ -66,4 +71,6 @@ export const SpeakerData = [
     {img:img16, name:"Dr. Deepak. K. Singh", institute:"Reliance Industries Ltd", place: "India", pre:"/"},
     {img:img17, name:" Dr.  Rupam Sinha", institute:"NIT Trichy", place: "India", pre:"/"},
     {img:img18, name:" Dr.  Sunil Kumar Singh", institute:"BITS Sindri", place: "India", pre:"/"},
+   
+  
 ];
