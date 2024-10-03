@@ -51,7 +51,7 @@ function Registration() {
       </table>
       <p className='text-center'>* All registration fees are including applicable tax</p>
       <p className='font-extrabold'>Dates and Deadlines<br></br></p><p>
-(i)  Early bird registration: 6-11 Nov, 2024 <br></br>
+(i)  Early bird registration: Upto 11 Nov, 2024 <br></br>
 
 (ii) Late registration: after 11 Nov, 2024 (additional charges of Rs. 500 (for Indians) and 10 USD for foreign students/delegates is applicable)
 <br></br>
