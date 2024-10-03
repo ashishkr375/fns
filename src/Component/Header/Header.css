@@ -235,7 +235,7 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 2rem;
+ 
 }
 .containerHead .header .heading h2 {
   text-align: center;
@@ -303,8 +303,15 @@
     padding-right: 20px;
   }
 }
-
+.royal{
+  height: 6rem;
+  width: 10rem;
+}
 @media screen and (max-width: 768px) {
+  .royal{
+    height: 3.5rem;
+    width: 6rem;
+  }
   .containerHead .header .logo {
     width: 3.5rem;
     height: 3rem;
@@ -365,6 +372,10 @@
   }
 }
 @media screen and (max-width: 380px) {
+  .royal{
+    height: 2rem;
+    width: 3rem;
+  }
   .containerHead .navbar {
     height: 95vh;
     position: absolute;

@@ -62,8 +62,8 @@ italic"
               </h2>
             </Link>
           </div>
-          <div>
-            <img src={img1} alt="royal" className="h-20 w-25 " />
+          <div className="">
+            <img src={img1} alt="royal" className=" royal" />
           </div>
           <div className="buttonn">
             <div className="">
