@@ -26,9 +26,9 @@ function Abstract() {
         <div className="abstract">
           <h2 className="text-center  font-bold text-xl md:text-xl">
             Dates and Deadlines<br></br>
-            Abstract submission: 1-30 Sept, 2024
+              Extended Abstract submission: Upto 31 Oct  2024
             <br />
-            Abstract acceptance: 5 Oct, 2024
+            Abstract acceptance: 5-7 Nov, 2024
             <br />
           </h2>
           <p className="hehe ">
