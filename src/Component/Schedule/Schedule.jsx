@@ -1,5 +1,7 @@
 import React from 'react'
 import './Accepted.css'
+import img1 from "./che.jpg"
+
 
 function Schedule() {
   return (
@@ -16,7 +18,9 @@ function Schedule() {
         </div> */}
     
         <div className="mx-5 md:mx-20">
-        <p className="morspeaker text-center m-10 font-bold text-xl md:text-4xl"> coming soon ....</p>
+        <div>
+          <img src={img1} />
+        </div>
       </div>
    
     </>
