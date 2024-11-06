@@ -18,6 +18,7 @@ import img17 from "../image/rupan.png"
 import img18 from "../image/sunil.png"
 import img19 from "../image/saikat.png"
 import img20 from "../image/kknanda.png"
+import img21 from "../image/bhawna.jpeg"
 export const SpeakerData = [
     // Level 1 Speakers (ROW 1)
     {img:"https://research.unsw.edu.au/sites/default/files/styles/profile_small/public/images/profile/photo%20%28LDai%29%20Hi%20Res.jpg?itok=xeOwApcp", name:"Prof. Liming Dai", institute:"UNSW Sydney", place: "Australia", pre:"https://research.unsw.edu.au/people/scientia-professor-liming-dai"},
@@ -71,6 +72,7 @@ export const SpeakerData = [
     {img:img16, name:"Dr. Deepak. K. Singh", institute:"Reliance Industries Ltd", place: "India", pre:"/"},
     {img:img17, name:" Dr.  Rupam Sinha", institute:"NIT Trichy", place: "India", pre:"/"},
     {img:img18, name:" Dr.  Sunil Kumar Singh", institute:"BITS Sindri", place: "India", pre:"/"},
+    {img:img21, name:" Dr.  Bhawna verma", institute:"IIT BHU ", place: "India", pre:"/"}
    
   
 ];
