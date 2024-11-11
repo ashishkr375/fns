@@ -1,0 +1,79 @@
+/* CountdownTimer.css */
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 65, 65, 0.6); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .hurry{
+    font-size: 1.5rem;
+    color: rgb(168, 35, 35);
+    font-weight: bold;
+  }
+  
+  .popup-content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .timer-container {
+    color: #333;
+  }
+  
+  .timer-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(#61dafb, #ff6b6b, #61dafb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+  }
+  
+  .timer-text {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer-text span {
+    font-weight: bold;
+  }
+  

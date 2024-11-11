@@ -16,10 +16,10 @@ function Sidebar() {
             <h2 className="sidetitle">Important Dates</h2>
           </div>
           <div className="dates px-5" >
-          <Date  datetitle={" Extended Abstract submission:"} datedate={" 31 Oct , 2024(11:59 PM IST)"} />
-          <Date  datetitle={"Abstract acceptance: "} datedate={"5 Oct - 7 Nov, 2024(11:59 PM IST)"} />
-            <Date  datetitle={"Early registration"} datedate={" Upto 11 Nov, 2024 (11:59 PM IST)"} />
-            <Date  datetitle={"Late registration:"} datedate={"after 11 Nov, 2024(11:59 PM IST)"} />
+          <Date  datetitle={" Extended Abstract submission:"} datedate={" upto 20 Nov, 2024"} />
+          <Date  datetitle={"Extended Abstract acceptance: "} datedate={" upto 25 Nov, 2024"} />
+            <Date  datetitle={"Early registration"} datedate={"upto 28 Nov,2024"} />
+            <Date  datetitle={"Late registration:"} datedate={"after 1 Dec,2024"} />
             <Date  datetitle={"Conference dates:"} datedate={"21-23 Dec, 2024(11:59 PM IST)"} />
           </div>
         </div>
