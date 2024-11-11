@@ -6,6 +6,7 @@ import img from "./sac.jpg";
 import Card from "../Speaker/Card/Card";
 import { SpeakerData } from "../Config/SpeakerData";
 import img3 from '../image/Screenshot 2024-09-03 004620.png';
+import Count from "../Config/Count";
 function Home() {
 
   
@@ -28,6 +29,7 @@ function Home() {
         </div>
       </div>
       <div className="mx-5 md:mx-20">
+        <Count />
         {/* <h1 className="text-center m-20 font-extrabold text-2xl md:text-9xl">Home Content Here</h1> */}
         <h1 className="conthemetitle my-5 "> About FINS,2K24</h1>
         <p className=" hometext1 my-2">
@@ -55,26 +57,7 @@ The accepted conference papers will be published in proceedings, Scopus/SCI appr
                     </iframe>
                 </div>
             </div>
-        {/* <h1 className="speakerheading">Keynote Speaker :</h1>
-        <div className="speakers">
-          {SpeakerData.length > 0 ? (
-            SpeakerData.map((speaker, index) => (
-              <Card
-                key={index}
-                img={speaker.img}
-                name={speaker.name}
-                institute={speaker.institute}
-                pre={speaker.pre}
-                place={speaker.place}
-              />
-            ))
-          ) : (
-            <p className="nospeaker">Speakers comming soon.....</p>
-          )}
-          {SpeakerData.length > 0 && (
-            <p className="morspeaker">More speakers coming soon ....</p>
-          )}
-        </div> */}
+        
        
         <div className="conthemes">
           <h1 className="conthemetitle">Conference Themes:</h1>

@@ -15,6 +15,7 @@ import Newupdate from './Component/Newupdate/Newupdate'
 import Schedule from './Component/Schedule/Schedule'
 import Publication from './Component/Publication/Publication'
 import Travel from './Component/Travel/Travel'
+
 // import Sponsor from './Component/Sponsor/Sponsor'
 
 
@@ -38,6 +39,7 @@ function App() {
           <Route path='/travel' element={<Travel/>}/>
           <Route path='/registration' element={<Registration />} />
           <Route path='/contact' element={<Contact />} />
+          
           {/* <Route path='/sponsor' element={<Sponsor />} /> */}
 
         </Routes>
