@@ -1,6 +1,7 @@
 import React from 'react'
 import './Publication.css'
 import img from "./royal.png"
+import img2 from "../image/springer.png"
 
 function Publication() {
   return (
@@ -21,8 +22,9 @@ will be published in Scopus-indexed Journals.
       </h2>
       <h2 className='text-xl my-3 text-red-600'> Conference-selective papers will be published in Biomass conversion and bio-refinery, Springer under special call [IF- 3.5]
       </h2>
-      <div className=''>
-      <img src={img} alt="royal" className=" mx-auto  h-80 w-2/5" />
+      <div className='flex'>
+      <img src={img} alt="royal" className=" mx-auto  h-70 w-2/5" />
+      <img src={img2} alt="royal" className=" mx-auto  h-70 w-2/5" />
       </div>  
       <p className='my-2 text-xl'>
       All manuscripts shall not be communicated elsewhere for publication or monetary support. The format of manuscripts shall

@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./logo.jpg";
 import img1 from "./royal1.png";
+import dst from './dst3.svg';
+
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -62,8 +64,9 @@ italic"
               </h2>
             </Link>
           </div>
-          <div className="">
+          <div className="md:flex">
             <img src={img1} alt="royal" className=" royal" />
+            <img src={dst} alt="dst" className="md:h-20 h-8" />
           </div>
           <div className="buttonn">
             <div className="">
@@ -72,7 +75,7 @@ italic"
                 class=" butt relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-700 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 "
                 onClick={() => handlego()}
               >
-                <span class="relative px-2 py-1 md:px-6 md:py-3 transition-all ease-in duration-75 bg-blue-50 rounded-md group-hover:bg-opacity-0 font-extrabold md:text-2xl">
+                <span class="relative px-2 py-1 md:px-6 md:py-3 transition-all ease-in duration-75 bg-blue-50 rounded-md group-hover:bg-opacity-0 font-bold text-xs md:text-xl ">
                   Register Now📝
                 </span>
               </button>
