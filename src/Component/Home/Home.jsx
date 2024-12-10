@@ -20,7 +20,11 @@ function Home() {
         <div className="md:col-span-4">
           <div className="notice-img">
             <div className="nitp-img">
+            <div style={styles.container}>
+      <h2 style={styles.heading}>🚨 Abstract Submission Closed 🚨</h2>
+    </div>
               <img src={img3} alt="fins" />
+              
             </div>
           </div>
         </div>
@@ -83,5 +87,22 @@ The accepted conference papers will be published in proceedings, Scopus/SCI appr
     </>
   );
 }
+const styles = {
+  container: {
+    backgroundColor: "#ffeb3b", // Yellow background for highlighting
+    color: "#000", // Black text for contrast
+    textAlign: "center",
+    padding: "20px",
+    borderRadius: "8px",
+    margin: "20px auto",
+    maxWidth: "600px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+  },
+  heading: {
+    fontSize: "1.5rem",
+    fontWeight: "bold",
+    margin: "0 0 10px",
+  }
+};
 
 export default Home;
