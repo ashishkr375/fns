@@ -1,6 +1,7 @@
 import React from 'react'
 import './Accepted.css'
-import img1 from "./che.jpg"
+import img1 from "./1.png"
+import img2 from "./2.png"
 
 
 function Schedule() {
@@ -20,6 +21,7 @@ function Schedule() {
         <div className="mx-5 md:mx-20">
         <div>
           <img src={img1} />
+          <img src={img2} />
         </div>
       </div>
    
